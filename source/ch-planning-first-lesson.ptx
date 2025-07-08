@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-planning-first-lesson">
+    <title>Module 6: Planning Your First Data Science Lesson</title>
+    
+    <introduction>
+        <p>
+            Welcome to the implementation phase! Now that you've explored all five data science strands, it's time to put your learning into practice by designing a complete lesson that brings data science thinking into your classroom.
+        </p>
+        
+        <p>
+            This module is entirely hands-on. You'll work through the process of planning a data science lesson step-by-step, considering how to integrate data science naturally with your existing curriculum while avoiding common pitfalls that trip up new data science educators.
+        </p>
+        
+        <video youtube="R8jK4nT9-2s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this 7-minute video showing teachers from different grade levels and subjects planning their first data science lessons.</em>
+        </p>
+        
+        <p>
+            By the end of this module, you'll have a complete, tested lesson plan ready to implement in your classroom, along with strategies for adapting and extending the lesson based on how it goes with your students.
+        </p>
+        
+        <p>
+            <em>Estimated time:</em> 60-90 minutes
+        </p>
+    </introduction>
+
+    <section xml:id="sec-lesson-design-framework">
+        <title>The Data Science Lesson Design Framework</title>
+        
+        <p>
+            A good data science lesson doesn't try to cover everything at once. Instead, it integrates one or two data science concepts naturally with your existing curriculum content, giving students authentic practice with data thinking.
+        </p>
+        
+        <exploration xml:id="exploration-lesson-framework">
+            <title>The Five-Component Lesson Framework</title>
+            
+            <p>
+                Every effective data science lesson includes these five components, though they don't have to be separate activities:
+            </p>
+            
+            <p>
+                <em>1. Curriculum Connection:</em> How does this connect to what you're already teaching? What content standards does it address?
+            </p>
+            
+            <p>
+                <em>2. Data Science Focus:</em> Which strand(s) and concepts are you emphasizing? What data science skills will students practice?
+            </p>
+            
+            <p>
+                <em>3. Engaging Question:</em> What question will drive the investigation? Why should students care about finding the answer?
+            </p>
+            
+            <p>
+                <em>4. Active Investigation:</em> How will students work with data to explore the question? What will they do, not just learn about?
+            </p>
+            
+            <p>
+                <em>5. Reflection and Extension:</em> How will students make sense of what they learned? What questions does this raise for future investigation?
+            </p>
+        </exploration>
+        
+        <exercise xml:id="lesson-component-practice">
+            <statement>
+                <p>
+                    A 4th grade teacher wants to integrate data science with a unit on animal habitats. Which component should they start with when planning their lesson?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about what provides the foundation that makes the other components meaningful and engaging.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The engaging question—what do students wonder about animal habitats that they could investigate with data?
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Starting with the engaging question ensures that the lesson addresses something students are genuinely curious about, which makes all the other components more meaningful. A good question might be <q>Do animals in colder climates tend to be larger?</q> or <q>Which habitat types support the most different kinds of animals?</q> From there, the teacher can design investigations that address both science content and data science skills.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-lesson-planning-template">
+            <title>Using the Lesson Plan Template</title>
+            
+            <p>
+                <em>Note: The complete lesson plan template is available at [PLACEHOLDER: Link to lesson plan template]</em>
+            </p>
+            
+            <p>
+                The template guides you through each component with specific prompts and examples. Here's how to approach each section:
+            </p>
+            
+            <p>
+                <em>Curriculum Connection Section:</em>
+            </p>
+            <p>
+                • List your subject area and grade level
+            </p>
+            <p>
+                • Identify specific content standards this lesson addresses
+            </p>
+            <p>
+                • Note how this fits with your current unit or theme
+            </p>
+            
+            <p>
+                <em>Data Science Focus Section:</em>
+            </p>
+            <p>
+                • Choose 1-2 strands to emphasize (don't try to do everything)
+            </p>
+            <p>
+                • Identify specific concepts students will practice
+            </p>
+            <p>
+                • Note connections to the learning progressions
+            </p>
+            
+            <p>
+                <em>Implementation Sections:</em>
+            </p>
+            <p>
+                • Break the lesson into manageable chunks with time estimates
+            </p>
+            <p>
+                • Include specific questions you'll ask students
+            </p>
+            <p>
+                • Plan for different pacing and ability levels
+            </p>
+        </exploration>
+        
+        <exercise xml:id="template-usage">
+            <statement>
+                <p>
+                    When using the lesson plan template, what's the most important thing to remember about time management?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about what happens when students get deeply engaged in data investigations.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Data investigations often take longer than expected because students get engaged and want to explore further.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Plan for flexibility! Data science lessons often spark student curiosity that leads to extended investigation. Build in extra time, have optional extension activities ready, and be prepared to continue investigations in subsequent lessons if students are deeply engaged. It's better to have a rich, incomplete investigation than a rushed, superficial one.
+                </p>
+            </solution>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-step-by-step-lesson-building">
+        <title>Building Your Lesson Step-by-Step</title>
+        
+        <p>
+            Let's work through the lesson planning process systematically, making decisions at each step and building toward a complete lesson you can actually teach.
+        </p>
+        
+        <exploration xml:id="exploration-step-one-connection">
+            <title>Step 1: Identify Your Curriculum Connection</title>
+            
+            <p>
+                Start with what you're already planning to teach. Data science works best when it enhances existing content rather than replacing it.
+            </p>
+            
+            <p>
+                <em>Reflection Questions:</em>
+            </p>
+            <p>
+                • What unit or topic are you teaching in the next 2-3 weeks?
+            </p>
+            <p>
+                • What questions do students typically ask about this topic?
+            </p>
+            <p>
+                • What information or comparisons would help students understand this topic better?
+            </p>
+            <p>
+                • Are there any controversies, choices, or decisions related to this topic?
+            </p>
+            
+            <p>
+                <em>Examples Across Subjects:</em>
+            </p>
+            <p>
+                • <em>Math:</em> Studying fractions → Investigate fractional parts of students' daily schedules
+            </p>
+            <p>
+                • <em>Science:</em> Learning about weather → Track and analyze local weather patterns
+            </p>
+            <p>
+                • <em>Social Studies:</em> Studying community → Survey and analyze neighborhood characteristics
+            </p>
+            <p>
+                • <em>ELA:</em> Reading different genres → Analyze word patterns in different types of books
+            </p>
+        </exploration>
+        
+        <exercise xml:id="curriculum-connection-practice">
+            <p>
+                Think about a specific unit you're teaching in the next month. Write down: (1) The main topic or concept, (2) One question students often ask about this topic, (3) One type of information that would help them understand it better.
+            </p>
+        </exercise>
+        
+        <exploration xml:id="exploration-step-two-question">
+            <title>Step 2: Craft Your Engaging Question</title>
+            
+            <p>
+                The question should connect to your curriculum content while being investigable through data. It should make students think, <q>I want to know the answer to that!</q>
+            </p>
+            
+            <p>
+                <em>Question Quality Checklist:</em>
+            </p>
+            <p>
+                ✓ Connects to curriculum content students are learning
+            </p>
+            <p>
+                ✓ Can be investigated through data collection or analysis
+            </p>
+            <p>
+                ✓ Is specific enough to be answerable but broad enough to be interesting
+            </p>
+            <p>
+                ✓ Matters to students—they care about finding the answer
+            </p>
+            <p>
+                ✓ Appropriate for your grade level and available time
+            </p>
+            
+            <p>
+                <em>Question Transformation Practice:</em>
+            </p>
+            <p>
+                • Weak: <q>What do students like?</q> → Strong: <q>What activities do students in our school prefer for indoor recess?</q>
+            </p>
+            <p>
+                • Weak: <q>How does the weather change?</q> → Strong: <q>How has our local temperature changed over the past month compared to the same month last year?</q>
+            </p>
+            <p>
+                • Weak: <q>What makes a good story?</q> → Strong: <q>What types of words appear most frequently in mystery books compared to adventure books?</q>
+            </p>
+        </exploration>
+        
+        <video youtube="M4kR7nT8-6s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>This 6-minute video shows teachers working through the process of refining their investigation questions.</em>
+        </p>
+        
+        <exercise xml:id="question-crafting">
+            <p>
+                Using the curriculum connection you identified earlier, write three possible investigation questions. Then use the quality checklist to evaluate and improve them. Which one feels most engaging and manageable for your students?
+            </p>
+        </exercise>
+        
+        <exploration xml:id="exploration-step-three-investigation">
+            <title>Step 3: Design the Investigation Process</title>
+            
+            <p>
+                Now plan how students will actively work with data to explore your question. This is where you decide which data science strands to emphasize and what students will actually do.
+            </p>
+            
+            <p>
+                <em>Investigation Design Decisions:</em>
+            </p>
+            
+            <p>
+                <em>Data Source:</em> Will students collect new data, use existing datasets, or both?
+            </p>
+            
+            <p>
+                <em>Data Science Strands:</em> Which 1-2 strands will you emphasize? (Don't try to cover everything in one lesson)
+            </p>
+            
+            <p>
+                <em>Student Role:</em> Will they work individually, in pairs, or small groups? What will each person be responsible for?
+            </p>
+            
+            <p>
+                <em>Tools and Materials:</em> What will students use to collect, organize, and analyze data? (Keep it simple for your first lesson)
+            </p>
+            
+            <p>
+                <em>Investigation Flow Example:</em>
+            </p>
+            <p>
+                Question: <q>What types of books are most popular among different grade levels in our school?</q>
+            </p>
+            <p>
+                1. Students design a simple survey (Creation &amp; Curation)
+            </p>
+            <p>
+                2. Collect data from other classes (Creation &amp; Curation)
+            </p>
+            <p>
+                3. Organize responses and create frequency tables (Analysis &amp; Modeling)
+            </p>
+            <p>
+                4. Create visualizations and identify patterns (Visualization &amp; Communication)
+            </p>
+            <p>
+                5. Discuss what findings mean for school library decisions (Interpreting Problems &amp; Results)
+            </p>
+        </exploration>
+        
+        <exercise xml:id="investigation-design">
+            <p>
+                For your question, sketch out a 3-5 step investigation process. What will students do in each step? Which data science strands are you emphasizing? What materials will you need?
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-avoiding-common-pitfalls">
+        <title>Avoiding Common Pitfalls</title>
+        
+        <p>
+            There are predictable challenges that new data science educators encounter. Learning to recognize and plan for these pitfalls will help your first lesson go smoothly and build your confidence for future lessons.
+        </p>
+        
+        <exploration xml:id="exploration-pitfall-prevention2">
+            <title>The Most Common Pitfalls and How to Avoid Them</title>
+            
+            <p>
+                <em>Pitfall 1: Trying to Cover Too Much</em>
+            </p>
+            <p>
+                Problem: Planning lessons that touch on all five strands superficially
+            </p>
+            <p>
+                Solution: Choose 1-2 strands to emphasize deeply. Better to do one thing well than five things poorly.
+            </p>
+            
+            <p>
+                <em>Pitfall 2: Technology Taking Over</em>
+            </p>
+            <p>
+                Problem: Spending more time troubleshooting tools than thinking about data
+            </p>
+            <p>
+                Solution: Use simple, reliable tools you're comfortable with. Paper and pencil work fine for first lessons!
+            </p>
+            
+            <p>
+                <em>Pitfall 3: Weak Curriculum Connections</em>
+            </p>
+            <p>
+                Problem: Data science activities that feel like add-ons rather than integral parts of learning
+            </p>
+            <p>
+                Solution: Start with curriculum content, then find the data angle. Not the other way around.
+            </p>
+            
+            <p>
+                <em>Pitfall 4: Questions Without Answers</em>
+            </p>
+            <p>
+                Problem: Investigation questions that are too broad, too complex, or impossible to answer with available data
+            </p>
+            <p>
+                Solution: Test your question yourself first. Can you actually answer it with the data and methods you're planning?
+            </p>
+            
+            <p>
+                <em>Pitfall 5: No Plan for Extensions</em>
+            </p>
+            <p>
+                Problem: Students finish early or want to investigate further, but there's no plan for what to do next
+            </p>
+            <p>
+                Solution: Always have 2-3 follow-up questions ready for students who want to dig deeper.
+            </p>
+        </exploration>
+        
+        <exercise xml:id="pitfall-self-check">
+            <statement>
+                <p>
+                    Looking at your lesson plan so far, which pitfall are you most at risk of falling into?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Consider your planned timeline, technology requirements, and curriculum connections.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    [This will vary by individual, but common answers include trying to cover too much or overcomplicating technology]
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The most common pitfall for first-time data science educators is trying to cover too much in one lesson. If you're planning to touch on more than 2 strands or multiple complex concepts, consider simplifying. Remember: one meaningful data experience is worth more than five rushed activities.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-backup-plans">
+            <title>Building in Flexibility and Backup Plans</title>
+            
+            <p>
+                Data science lessons often take unexpected turns because students get curious and want to explore further. This is good! But it requires planning for flexibility.
+            </p>
+            
+            <p>
+                <em>Flexibility Strategies:</em>
+            </p>
+            
+            <p>
+                <em>Time Buffers:</em> Plan core activities for 75% of available time, leaving 25% for exploration or catch-up
+            </p>
+            
+            <p>
+                <em>Stopping Points:</em> Identify natural places where you could end the lesson and continue later if needed
+            </p>
+            
+            <p>
+                <em>Extension Questions:</em> Have 2-3 follow-up questions ready for fast finishers or naturally emerging curiosity
+            </p>
+            
+            <p>
+                <em>Simplification Options:</em> Know how to simplify your investigation if students are struggling or time is short
+            </p>
+            
+            <p>
+                <em>Low-Tech Alternatives:</em> Have non-digital backup plans in case technology fails
+            </p>
+        </exploration>
+        
+        <exercise xml:id="flexibility-planning">
+            <p>
+                For your lesson plan, identify: (1) One natural stopping point if you run out of time, (2) One way to simplify the investigation if needed, (3) One extension question for students who finish early.
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-completing-your-lesson">
+        <title>Completing and Testing Your Lesson Plan</title>
+        
+        <p>
+            Now it's time to complete your lesson plan and prepare for implementation. This includes finalizing all the details, gathering materials, and doing a final check to make sure everything is ready.
+        </p>
+        
+        <exploration xml:id="exploration-lesson-completion">
+            <title>Final Lesson Plan Components</title>
+            
+            <p>
+                <em>Opening (5-10 minutes):</em>
+            </p>
+            <p>
+                • Hook students' attention with the investigation question
+            </p>
+            <p>
+                • Connect to previous learning or current events
+            </p>
+            <p>
+                • Explain what students will be doing and why
+            </p>
+            
+            <p>
+                <em>Investigation Activities (20-40 minutes):</em>
+            </p>
+            <p>
+                • Step-by-step procedures with time estimates
+            </p>
+            <p>
+                • Specific questions you'll ask to guide student thinking
+            </p>
+            <p>
+                • Assessment checkpoints to monitor understanding
+            </p>
+            
+            <p>
+                <em>Reflection and Wrap-up (10-15 minutes):</em>
+            </p>
+            <p>
+                • Students share findings and observations
+            </p>
+            <p>
+                • Connect back to curriculum content and data science concepts
+            </p>
+            <p>
+                • Generate questions for future investigation
+            </p>
+            
+            <p>
+                <em>Materials and Preparation:</em>
+            </p>
+            <p>
+                • Complete list of everything you'll need
+            </p>
+            <p>
+                • Setup instructions and logistics
+            </p>
+            <p>
+                • Handouts, templates, or digital resources
+            </p>
+        </exploration>
+        
+        <exercise xml:id="lesson-plan-review">
+            <title>Lesson Plan Quality Check</title>
+            <introduction>
+                <p>
+                    Use this checklist to review your completed lesson plan:
+                </p>
+            </introduction>
+            <task>
+                <p>
+                    ✓ Clear connection to curriculum standards and content you're teaching
+                </p>
+            </task>
+            <task>
+                <p>
+                    ✓ Engaging question that students will care about answering
+                </p>
+            </task>
+            <task>
+                <p>
+                    ✓ Focus on 1-2 data science strands rather than trying to cover everything
+                </p>
+            </task>
+            <task>
+                <p>
+                    ✓ Active investigation where students work with data, not just learn about it
+                </p>
+            </task>
+            <task>
+                <p>
+                    ✓ Realistic timeline with buffer time for unexpected discoveries
+                </p>
+            </task>
+            <task>
+                <p>
+                    ✓ Simple, reliable tools and materials you're comfortable using
+                </p>
+            </task>
+            <task>
+                <p>
+                    ✓ Specific questions to guide student thinking throughout
+                </p>
+            </task>
+            <task>
+                <p>
+                    ✓ Plans for different pacing and ability levels
+                </p>
+            </task>
+            <task>
+                <p>
+                    ✓ Reflection component that connects findings to larger learning goals
+                </p>
+            </task>
+            <conclusion>
+                <p>
+                    If you can check most of these boxes, you're ready to teach! Remember, no lesson is perfect on the first try.
+                </p>
+            </conclusion>
+        </exercise>
+        
+        <exploration xml:id="exploration-dry-run">
+            <title>Testing Your Lesson Before Teaching</title>
+            
+            <p>
+                Before teaching your lesson to students, try a quick dry run to identify potential issues:
+            </p>
+            
+            <p>
+                <em>Self-Testing:</em>
+            </p>
+            <p>
+                • Work through the investigation yourself using the same materials students will use
+            </p>
+            <p>
+                • Time how long each component actually takes
+            </p>
+            <p>
+                • Identify any confusing instructions or missing materials
+            </p>
+            
+            <p>
+                <em>Colleague Testing:</em>
+            </p>
+            <p>
+                • Ask a colleague to review your lesson plan and give feedback
+            </p>
+            <p>
+                • If possible, try one component with a small group of students first
+            </p>
+            <p>
+                • Get input from someone who teaches the same grade level or subject
+            </p>
+            
+            <p>
+                <em>Technology Testing:</em>
+            </p>
+            <p>
+                • Make sure all digital tools work reliably on your classroom devices
+            </p>
+            <p>
+                • Have low-tech backup plans ready
+            </p>
+            <p>
+                • Test any data collection or sharing procedures in advance
+            </p>
+        </exploration>
+        
+        <video youtube="L3nK8wR4-9s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>This 5-minute video shows teachers doing final preparations and dry runs of their first data science lessons.</em>
+        </p>
+        
+        <exercise xml:id="final-preparation">
+            <p>
+                What are the three most important things you need to do to prepare for teaching your lesson? List them in order of priority and set deadlines for completing each one.
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-implementation-and-reflection">
+        <title>Implementation and Post-Lesson Reflection</title>
+        
+        <p>
+            Teaching your first data science lesson is just the beginning. How you implement it and what you learn from the experience will inform all your future data science teaching.
+        </p>
+        
+        <exploration xml:id="exploration-teaching-tips">
+            <title>Day-of-Teaching Tips</title>
+            
+            <p>
+                <em>Before the Lesson:</em>
+            </p>
+            <p>
+                • Arrive early to set up materials and test technology
+            </p>
+            <p>
+                • Have backup plans readily accessible
+            </p>
+            <p>
+                • Review your key questions and transition phrases
+            </p>
+            
+            <p>
+                <em>During the Lesson:</em>
+            </p>
+            <p>
+                • Stay flexible—follow student curiosity when it emerges
+            </p>
+            <p>
+                • Ask lots of questions: <q>What do you notice? What surprises you? What would you want to investigate next?</q>
+            </p>
+            <p>
+                • Celebrate good thinking, not just correct answers
+            </p>
+            <p>
+                • Take notes on what's working and what needs adjustment
+            </p>
+            
+            <p>
+                <em>When Things Don't Go as Planned:</em>
+            </p>
+            <p>
+                • Technology fails: Switch to your low-tech backup
+            </p>
+            <p>
+                • Students finish early: Use your extension questions
+            </p>
+            <p>
+                • Investigation takes longer: Find a good stopping point and continue later
+            </p>
+            <p>
+                • Students struggle: Simplify and focus on one key concept
+            </p>
+        </exploration>
+        
+        <exercise xml:id="teaching-anxiety">
+            <statement>
+                <p>
+                    It's normal to feel nervous about teaching your first data science lesson. What's the most important thing to remember?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about what matters most for student learning and your professional growth.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The goal is learning and growth for both you and your students, not perfection.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Remember that you're learning alongside your students, and that's perfectly appropriate. Students benefit from seeing adults model curiosity, problem-solving, and learning from mistakes. Focus on facilitating good thinking rather than having all the answers, and view any challenges as learning opportunities for future lessons.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-reflection-framework">
+            <title>Post-Lesson Reflection Framework</title>
+            
+            <p>
+                Within 24 hours of teaching your lesson, reflect on these questions:
+            </p>
+            
+            <p>
+                <em>Student Engagement:</em>
+            </p>
+            <p>
+                • What moments showed the highest student engagement?
+            </p>
+            <p>
+                • What questions or discoveries excited students most?
+            </p>
+            <p>
+                • Where did students seem confused or disengaged?
+            </p>
+            
+            <p>
+                <em>Learning Objectives:</em>
+            </p>
+            <p>
+                • What evidence showed students meeting curriculum goals?
+            </p>
+            <p>
+                • Which data science concepts did students grasp most easily?
+            </p>
+            <p>
+                • What would you want to reinforce or reteach?
+            </p>
+            
+            <p>
+                <em>Logistics and Flow:</em>
+            </p>
+            <p>
+                • What worked smoothly in terms of timing and materials?
+            </p>
+            <p>
+                • Where did you need to make adjustments on the fly?
+            </p>
+            <p>
+                • What would you change about the lesson structure?
+            </p>
+            
+            <p>
+                <em>Personal Growth:</em>
+            </p>
+            <p>
+                • What surprised you about teaching with data science?
+            </p>
+            <p>
+                • What do you feel more confident about now?
+            </p>
+            <p>
+                • What do you want to learn more about or try differently next time?
+            </p>
+        </exploration>
+        
+        <exercise xml:id="next-steps-planning">
+            <p>
+                After teaching and reflecting on your lesson, what are three specific next steps you want to take in your data science education journey? These might include trying new concepts, improving certain skills, or adapting your lesson for different contexts.
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-whats-next-module-6">
+        <title>What's Next?</title>
+        
+        <p>
+            Congratulations on completing your first data science lesson plan! Whether you've already taught it or are preparing to do so, you've taken a significant step toward becoming a confident data science educator.
+        </p>
+        
+        <p>
+            In our next module, <em>Building Your Data Science Toolkit</em>, we'll help you expand your resources and capabilities by exploring different tools, finding quality datasets, and building a sustainable collection of materials and strategies for ongoing data science education.
+        </p>
+        
+        <p>
+            Remember: Every expert was once a beginner. Your first lesson is the foundation for many more engaging data science experiences with your students. Each lesson you teach will build your confidence and reveal new possibilities for integrating data science with your curriculum.
+        </p>
+        
+        <p>
+            <em>Estimated time for this module:</em> 60-90 minutes
+        </p>
+        
+        <p>
+            <em>Next up:</em> Module 7 - Building Your Data Science Toolkit (60-90 minutes)
+        </p>
+        
+        <p>
+            <em>Implementation goal:</em> Teach your planned lesson within the next two weeks and complete the post-lesson reflection framework!
+        </p>
+    </section>
+
+</chapter>

@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-creation-and-curation">
+    <title>Module 2: Getting Data Ready - Creation and Curation</title>
+    
+    <introduction>
+        <p>
+            Welcome to the hands-on world of data collection and organization! This module focuses on where data comes from and how to make it useful for investigation.
+        </p>
+        
+        <p>
+            Creation and Curation isn't about turning your students into professional researchers. It's about helping them understand that data doesn't just appear—it's collected by people making decisions about what to measure and how. Whether students are conducting their own surveys or using existing datasets, they need to understand how data gets from the messy real world into organized, analyzable formats.
+        </p>
+        
+        <video youtube="j9TDlpJJGxI" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this 5-minute video showing students collecting and organizing data in different classroom contexts.</em>
+        </p>
+        
+        <p>
+            By the end of this module, you'll have practical strategies to help your students design simple investigations, collect data responsibly, organize information effectively, and understand the difference between clean and messy datasets.
+        </p>
+        
+        <p>
+            <em>Estimated time:</em> 45-60 minutes
+        </p>
+    </introduction>
+
+    <section xml:id="sec-from-questions-to-data-collection">
+        <title>From Questions to Data Collection: Designing Simple Investigations</title>
+        
+        <p>
+            Once students have developed good data questions (from Module 1), they need to learn how to collect information to answer those questions. The design of a data investigation is just as important as the analysis—poor collection methods lead to unreliable conclusions.
+        </p>
+        
+        <exercise xml:id="investigation-planning">
+            <statement>
+                <p>
+                    A student wants to investigate: <q>Do students in our school prefer summer or winter activities?</q> What's the first step in designing this investigation?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about what specific information they would need to collect to answer this question.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Define what they mean by <q>summer activities</q> and <q>winter activities</q> and decide who they'll ask.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Before collecting any data, students need to be specific about their terms. What counts as a summer activity? Are we talking about outdoor vs. indoor activities, or activities that can only be done in certain seasons? Who will they survey—the whole school, certain grades, or their class? These planning decisions directly affect what conclusions they can draw from their data.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-investigation-design">
+            <title>Try This Week: Simple Investigation Design</title>
+            
+            <p>
+                <em>Time needed:</em> 20 minutes of planning, plus time for data collection
+            </p>
+            
+            <p>
+                <em>How it works:</em> Walk students through designing a simple investigation using this framework:
+            </p>
+            
+            <p>
+                <em>1. Clarify the Question:</em> What exactly are we trying to find out? What do key terms mean?
+            </p>
+            
+            <p>
+                <em>2. Define the Population:</em> Who will we ask? Everyone in the class? School? Grade level?
+            </p>
+            
+            <p>
+                <em>3. Plan Data Collection:</em> How will we ask the question? When? Where?
+            </p>
+            
+            <p>
+                <em>4. Consider Ethics:</em> Is this information private? Do we need permission?
+            </p>
+            
+            <p>
+                <em>5. Plan Organization:</em> How will we record and organize responses?
+            </p>
+            
+            <p>
+                <em>Elementary Example:</em> <q>What's the most popular lunch food in our class?</q> → Define <q>lunch food</q> (main dish? including sides?), survey all classmates, use tally marks to record responses.
+            </p>
+            
+            <p>
+                <em>Secondary Example:</em> <q>How do study habits vary by grade level?</q> → Define <q>study habits</q> (time spent? location? methods?), survey students from different grades, use a simple form to record multiple pieces of information.
+            </p>
+        </exploration>
+        
+        <exercise xml:id="data-collection-methods">
+            <title>Choosing Data Collection Methods</title>
+            <introduction>
+                <p>
+                    Different questions require different approaches to data collection.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        For the question <q>How many books do students read per month?</q>, should you use observation, survey, or measurement?
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        Consider what method would give you the most accurate information about students' reading habits.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        Survey - students need to self-report their reading habits.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For <q>How long does it take students to complete a math worksheet?</q>, what method would work best?
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        Think about whether you can directly observe this information.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        Measurement/observation - you can time students as they work.
+                    </p>
+                </answer>
+            </task>
+            <conclusion>
+                <p>
+                    The data collection method should match what you're trying to find out. Some things can be observed directly, others require asking people for information.
+                </p>
+            </conclusion>
+        </exercise>
+        
+        <video youtube="mJ89EObP8zM" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>This 4-minute video shows elementary students planning and conducting their own data collection.</em>
+        </p>
+        
+        <exercise xml:id="designing-your-investigation">
+            <p>
+                Think of a question your students have asked recently (or might ask) about something in your curriculum. Walk through the 5-step investigation design process. What challenges might you encounter?
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-data-collection-in-practice">
+        <title>Data Collection in Practice: Student Surveys and Observations</title>
+        
+        <p>
+            The most common way students collect data is through surveys and simple observations. While these seem straightforward, there are important considerations that affect the quality and usefulness of the data.
+        </p>
+        
+        <exploration xml:id="exploration-student-surveys">
+            <title>Try This Week: Student Survey Basics</title>
+            
+            <p>
+                <em>Materials:</em> Paper or simple digital survey tool
+            </p>
+            
+            <p>
+                <em>Steps for Success:</em>
+            </p>
+            
+            <p>
+                <em>1. Write Clear Questions:</em> Avoid yes/no questions when you want more information. Instead of <q>Do you like reading?</q> try <q>How many books do you read per month?</q>
+            </p>
+            
+            <p>
+                <em>2. Consider Question Order:</em> Start with easy, non-personal questions. Save sensitive topics for later if needed.
+            </p>
+            
+            <p>
+                <em>3. Test Your Questions:</em> Try the survey with a few students first. Are the questions clear? Do students understand what you're asking?
+            </p>
+            
+            <p>
+                <em>4. Plan for Different Responses:</em> What if someone doesn't know? What if they have multiple answers? Plan for these situations.
+            </p>
+            
+            <p>
+                <em>5. Make Recording Easy:</em> Use simple forms, clear handwriting, or digital tools that work reliably.
+            </p>
+        </exploration>
+        
+        <exercise xml:id="survey-question-quality">
+            <statement>
+                <p>
+                    Which survey question would give you more useful data: <q>Do you exercise?</q> or <q>How many days per week do you exercise for at least 20 minutes?</q>
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Consider which question would give you specific, comparable information.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The second question would give more useful data because it's specific and measurable.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <q>How many days per week do you exercise for at least 20 minutes?</q> is much better because it defines what counts as exercise (20+ minutes) and gives you a number you can compare across students. <q>Do you exercise?</q> is too vague—everyone might have different ideas about what <q>exercise</q> means, leading to responses that can't be meaningfully compared.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exercise xml:id="observation-vs-survey">
+            <statement>
+                <p>
+                    When should students use observation rather than surveys to collect data?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about what types of information can be directly observed versus what requires asking people.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    When they can directly see or measure what they're studying, like counting behaviors, measuring objects, or timing activities.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Observation works well for things like: counting how many students choose different lunch options, measuring plant growth, timing how long different activities take, or recording weather conditions. Surveys are better for opinions, preferences, experiences, or information that isn't directly observable (like how students feel about a topic or what they do at home).
+                </p>
+            </solution>
+        </exercise>
+        
+        <p>
+            Sometimes the most interesting investigations involve students creating their own data through experiments or systematic observations.
+        </p>
+        
+        <exploration xml:id="exploration-student-generated-data">
+            <title>Ideas for Student-Generated Data</title>
+            
+            <p>
+                <em>Elementary Examples:</em>
+            </p>
+            
+            <p>
+                • Track daily weather and look for patterns over a month
+            </p>
+            <p>
+                • Count different types of vehicles passing the school during different times
+            </p>
+            <p>
+                • Measure how far different paper airplane designs fly
+            </p>
+            <p>
+                • Record which playground activities are most popular at different times of day
+            </p>
+            
+            <p>
+                <em>Secondary Examples:</em>
+            </p>
+            
+            <p>
+                • Test how different study environments affect concentration (measured by task completion time)
+            </p>
+            <p>
+                • Track school recycling data over time and relate it to awareness campaigns
+            </p>
+            <p>
+                • Compare plant growth under different conditions (light, water, soil type)
+            </p>
+            <p>
+                • Survey students about career interests and compare across grade levels
+            </p>
+        </exploration>
+        
+        <exercise xml:id="planning-student-data-generation">
+            <p>
+                Choose one of the examples above (or create your own) that would fit into a lesson you're planning. What materials would you need? What challenges might arise?
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-organizing-and-cleaning-data">
+        <title>Organizing and Cleaning Data: From Messy to Meaningful</title>
+        
+        <p>
+            Real-world data collection is messy. Students might record information inconsistently, miss data points, or make recording errors. Teaching students to organize and clean data helps them understand that data analysis requires careful preparation.
+        </p>
+        
+        <video youtube="kMhbXOTyZ9s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>This 6-minute video shows students working with messy data and learning to organize it for analysis.</em>
+        </p>
+        
+        <exercise xml:id="identifying-data-problems">
+            <statement>
+                <p>
+                    Students survey classmates about favorite colors and get these responses: <q>blue</q>, <q>Blue</q>, <q>light blue</q>, <q>navy</q>, <q>red</q>, <q>RED</q>, <q>green</q>. What problems do you notice?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Look for inconsistencies in how the same type of response is recorded.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Inconsistent capitalization and unclear categories (are <q>blue</q>, <q>light blue</q>, and <q>navy</q> the same or different?).
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    This data needs cleaning because: (1) capitalization is inconsistent (<q>blue</q> vs <q>Blue</q> vs <q>RED</q>), and (2) it's unclear whether <q>light blue</q> and <q>navy</q> should count as <q>blue</q> or be separate categories. Students need to make decisions about how to group responses consistently before they can analyze the data meaningfully.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-data-organization">
+            <title>Try This Week: Data Organization Practice</title>
+            
+            <p>
+                <em>Time needed:</em> 15-20 minutes after data collection
+            </p>
+            
+            <p>
+                <em>Basic Organization Steps:</em>
+            </p>
+            
+            <p>
+                <em>1. Check for Completeness:</em> Are there any missing responses? Illegible entries?
+            </p>
+            
+            <p>
+                <em>2. Standardize Formats:</em> Make capitalization consistent, spell out abbreviations, use consistent units.
+            </p>
+            
+            <p>
+                <em>3. Group Similar Responses:</em> Decide how to handle responses that are similar but not identical.
+            </p>
+            
+            <p>
+                <em>4. Create Simple Tables:</em> Organize data into rows and columns with clear labels.
+            </p>
+            
+            <p>
+                <em>5. Double-Check Numbers:</em> Do counts add up correctly? Are calculations accurate?
+            </p>
+            
+            <p>
+                <em>Elementary Approach:</em> Work through data organization as a whole class, making decisions together about how to handle problems.
+            </p>
+            
+            <p>
+                <em>Secondary Approach:</em> Have students work in small groups to clean their data, then compare approaches and discuss which methods work best.
+            </p>
+        </exploration>
+        
+        <exercise xml:id="data-cleaning-decisions">
+            <title>Making Data Cleaning Decisions</title>
+            <introduction>
+                <p>
+                    Data cleaning often requires making judgment calls about how to handle inconsistent responses.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Students are collecting data about pets and get responses like: <q>dog</q>, <q>puppy</q>, <q>golden retriever</q>, <q>cat</q>, <q>kitten</q>, <q>fish</q>. How should they group these responses?
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        Consider what level of detail would be most useful for their investigation.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        Group by general animal type: <q>dog</q> (including puppy and golden retriever), <q>cat</q> (including kitten), <q>fish</q>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What if their original question was specifically about dog breeds? How might they handle the data differently?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        They might keep <q>golden retriever</q> separate and ask follow-up questions to get breed information for <q>dog</q> and <q>puppy</q> responses.
+                    </p>
+                </answer>
+            </task>
+            <conclusion>
+                <p>
+                    Data cleaning decisions should always connect back to the original question you're trying to answer.
+                </p>
+            </conclusion>
+        </exercise>
+        
+        <exercise xml:id="handling-missing-data">
+            <statement>
+                <p>
+                    During a survey about homework time, some students leave the question blank. What are two reasonable ways to handle this missing data?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Consider whether missing responses should be ignored, estimated, or treated as a separate category.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    (1) Exclude those responses from analysis, or (2) follow up with those students to get complete data.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The best approach depends on how much data is missing and why. If only a few students didn't respond, you might exclude those responses or follow up to get complete information. If many students skipped the question, you need to consider whether the question was unclear or too personal. Don't guess or make up missing data—that creates false information.
+                </p>
+            </solution>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-working-with-existing-datasets">
+        <title>Working with Existing Datasets: Finding and Using Secondary Data</title>
+        
+        <p>
+            Not all student investigations require collecting new data. Sometimes the most interesting questions can be explored using datasets that already exist—from government websites, research organizations, or even school records (when appropriate and anonymized).
+        </p>
+        
+        <exploration xml:id="exploration-finding-student-appropriate-data">
+            <title>Finding Student-Appropriate Datasets</title>
+            
+            <p>
+                <em>Elementary-Friendly Sources:</em>
+            </p>
+            
+            <p>
+                • Local weather data from weather.gov
+            </p>
+            <p>
+                • School lunch participation numbers (anonymized)
+            </p>
+            <p>
+                • Community events attendance
+            </p>
+            <p>
+                • Simple sports statistics
+            </p>
+            
+            <p>
+                <em>Secondary-Appropriate Sources:</em>
+            </p>
+            
+            <p>
+                • Census data about community demographics
+            </p>
+            <p>
+                • Environmental data (air quality, recycling rates)
+            </p>
+            <p>
+                • Education statistics (graduation rates, college enrollment)
+            </p>
+            <p>
+                • Economic indicators relevant to local community
+            </p>
+            
+            <p>
+                <em>Key Criteria for Student Datasets:</em>
+            </p>
+            
+            <p>
+                • Small enough to work with manually (under 100 data points for elementary, under 500 for secondary)
+            </p>
+            <p>
+                • Relevant to students' lives or interests
+            </p>
+            <p>
+                • From trustworthy sources
+            </p>
+            <p>
+                • Understandable variable names and units
+            </p>
+        </exploration>
+        
+        <exercise xml:id="evaluating-secondary-data">
+            <statement>
+                <p>
+                    When students use data collected by others, what's the most important thing for them to consider first?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about the questions from Module 1 about understanding the story behind data.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Who collected this data, when, how, and why?
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Before analyzing any dataset, students should understand its context: Who collected it? When was it collected? How was it collected? Why was it collected? This helps them understand potential limitations, biases, or appropriate uses of the data. For example, data about school lunch preferences collected in 2015 might not reflect current preferences.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exercise xml:id="adapting-complex-datasets">
+            <statement>
+                <p>
+                    You find a dataset that would be perfect for your students' investigation, but it has 50 variables and 1,000 rows. How could you make this manageable for classroom use?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Consider what parts of the dataset are most relevant to your students' questions.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Select only the most relevant variables and a representative sample of rows.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    You could: (1) Choose 3-5 variables that directly relate to your students' questions, (2) Select a random sample of 50-100 rows, or (3) Focus on data from a specific time period or geographic area that's relevant to your students. The goal is maintaining the dataset's integrity while making it manageable for student analysis.
+                </p>
+            </solution>
+        </exercise>
+        
+        <video youtube="UlqCb8-iBsE" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>This 5-minute video shows a middle school class working with local government data about their community.</em>
+        </p>
+        
+        <exercise xml:id="secondary-data-ethics">
+            <statement>
+                <p>
+                    What ethical considerations apply when students use datasets collected by others?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about privacy, consent, and appropriate use of information about real people.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Respect privacy, give proper credit to data sources, and use data for appropriate educational purposes.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Students should: (1) Use only datasets that are publicly available or appropriately anonymized, (2) Give credit to original data collectors, (3) Respect the intended use of the data, (4) Avoid making harmful generalizations about groups of people, and (5) Understand that even anonymized data represents real people who deserve respect.
+                </p>
+            </solution>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-data-complexity-and-quality">
+        <title>Understanding Data Complexity and Quality</title>
+        
+        <p>
+            As students become more sophisticated in their data work, they need to understand that not all datasets are created equal. Some are clean and well-organized, others are messy and complex. Learning to work with increasing levels of complexity prepares students for real-world data analysis.
+        </p>
+        
+        <exercise xml:id="data-complexity-levels">
+            <title>Recognizing Data Complexity</title>
+            <introduction>
+                <p>
+                    Consider these different datasets and their complexity levels.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Dataset A: 25 students, 2 variables (favorite color, grade level), no missing data. What makes this <q>simple</q> data?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Small size, few variables, complete data, clear categories.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Dataset B: 200 students, 8 variables (including some with missing data), collected over 3 different time periods. What makes this more complex?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Larger size, more variables, missing data, time dimension adds complexity.
+                    </p>
+                </answer>
+            </task>
+            <conclusion>
+                <p>
+                    Students should start with simple, clean datasets and gradually work up to more complex data as their skills develop.
+                </p>
+            </conclusion>
+        </exercise>
+        
+        <exploration xml:id="exploration-data-quality-indicators">
+            <title>Teaching Students to Assess Data Quality</title>
+            
+            <p>
+                <em>Questions Students Can Ask About Any Dataset:</em>
+            </p>
+            
+            <p>
+                <em>Completeness:</em> Are there missing values? How much data is missing?
+            </p>
+            
+            <p>
+                <em>Consistency:</em> Are similar things recorded in similar ways throughout the dataset?
+            </p>
+            
+            <p>
+                <em>Accuracy:</em> Do the numbers make sense? Are there obvious errors or outliers?
+            </p>
+            
+            <p>
+                <em>Relevance:</em> Does this data actually help answer our question?
+            </p>
+            
+            <p>
+                <em>Timeliness:</em> Is this data recent enough to be useful for our investigation?
+            </p>
+            
+            <p>
+                <em>Elementary Approach:</em> Use simple checklists and visual inspection to assess data quality as a class.
+            </p>
+            
+            <p>
+                <em>Secondary Approach:</em> Have students create data quality reports identifying strengths and limitations of their datasets.
+            </p>
+        </exploration>
+        
+        <exercise xml:id="data-quality-assessment">
+            <statement>
+                <p>
+                    Students are using attendance data from their school. They notice that Fridays consistently show lower attendance than other days, but there's no data recorded for several random dates throughout the year. What should they consider about data quality?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about what might explain the patterns they're seeing and how missing data might affect their conclusions.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The Friday pattern might be real, but they should investigate the missing dates and consider how that affects their analysis.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Students should: (1) Consider whether lower Friday attendance reflects a real pattern or data collection issues, (2) Investigate why certain dates are missing (holidays? technical problems? weather closures?), (3) Decide whether to exclude incomplete weeks from analysis, and (4) Consider how missing data might bias their conclusions about attendance patterns.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exercise xml:id="choosing-appropriate-complexity">
+            <p>
+                Think about your students' current skill level. What level of data complexity would be appropriate for their next investigation? What support would they need to work with slightly more complex data than they've used before?
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-putting-it-together-creation-curation">
+        <title>Putting It All Together: Your Data Creation and Curation Action Plan</title>
+        
+        <p>
+            You've explored strategies for helping students design investigations, collect data, organize information, and work with existing datasets. Now let's create a practical plan for building these skills in your classroom.
+        </p>
+        
+        <exploration xml:id="exploration-implementation-options">
+            <title>Choose Your Implementation Approach</title>
+            
+            <p>
+                Consider which approach would work best for your teaching context:
+            </p>
+            
+            <p>
+                <em>Option 1: Monthly Mini-Investigations</em> - Once per month, spend a week on a simple data collection and analysis project related to your curriculum.
+            </p>
+            
+            <p>
+                <em>Option 2: Ongoing Data Tracking</em> - Choose one thing to track consistently (weather, lunch participation, reading minutes) and analyze monthly.
+            </p>
+            
+            <p>
+                <em>Option 3: Curriculum Integration</em> - Build data collection into existing lessons when natural opportunities arise.
+            </p>
+            
+            <p>
+                <em>Option 4: Student Choice Projects</em> - Let students design and conduct their own investigations based on their interests.
+            </p>
+        </exploration>
+        
+        <exercise xml:id="implementation-planning1">
+            <statement>
+                <p>
+                    What's the most important factor to consider when choosing how to implement data creation and curation activities?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about what approach you can sustain over time while building student skills.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Choose an approach that fits your teaching style and schedule while providing regular practice for students.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The best approach is one you can implement consistently over time. Students need regular practice with data collection and organization to develop these skills. Consider your curriculum demands, available time, and students' developmental level. Start small and build complexity gradually rather than attempting ambitious projects that might overwhelm you or your students.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exercise xml:id="my-creation-curation-plan">
+            <title>My Data Creation and Curation Action Plan</title>
+            <introduction>
+                <p>
+                    Create your specific plan for implementing these strategies in your classroom.
+                </p>
+            </introduction>
+            <task>
+                <p>
+                    Which implementation approach feels most manageable for you to start with? Why?
+                </p>
+            </task>
+            <task>
+                <p>
+                    What's one specific data collection activity you could try with your students in the next two weeks?
+                </p>
+            </task>
+            <task>
+                <p>
+                    What materials or preparation would you need to make this activity successful?
+                </p>
+            </task>
+            <task>
+                <p>
+                    How will you help students practice data organization skills? What tools will you use?
+                </p>
+            </task>
+            <conclusion>
+                <p>
+                    Remember: The goal is building students' understanding of how data gets from questions to organized information ready for analysis.
+                </p>
+            </conclusion>
+        </exercise>
+        
+        <video youtube="HpIxXzG8xNk" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this 4-minute video of teachers sharing their favorite data collection activities and implementation tips.</em>
+        </p>
+        
+        <exercise xml:id="reflection-creation-curation">
+            <p>
+                Before moving to the next module, reflect: What aspect of data creation and curation do you think will be most challenging for your students? What aspect are you most excited to try? How does this connect to your existing curriculum?
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-whats-next-module-2">
+        <title>What's Next?</title>
+        
+        <p>
+            Excellent work! You now have strategies to help students move from curiosity (Module 1) to organized, analyzable data (Module 2). These first two modules provide the foundation for all data science work.
+        </p>
+        
+        <p>
+            In our next module, <em>Analysis and Modeling</em>, we'll explore how to help students make sense of the data they've collected and organized. You'll learn age-appropriate techniques for identifying patterns, making comparisons, and drawing initial conclusions.
+        </p>
+        
+        <p>
+            Remember: Data creation and curation skills develop over time through practice. Each investigation your students conduct helps them become more sophisticated in their approach to collecting and organizing information.
+        </p>
+        
+        <p>
+            <em>Estimated time for this module:</em> 45-60 minutes
+        </p>
+        
+        <p>
+            <em>Next up:</em> Module 3 - Analysis and Modeling (45-60 minutes)
+        </p>
+        
+        <p>
+            <em>Quick wins to try this week:</em> Choose one simple data collection activity from your action plan and try it with your students. Focus on the planning and organization process!
+        </p>
+    </section>
+
+</chapter>

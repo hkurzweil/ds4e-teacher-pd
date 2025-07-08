@@ -14,6 +14,11 @@
     <!-- Include chapters -->
     <xi:include href="./ch-what-is-datascience.ptx" />
     <xi:include href="./ch-data-dispositions.ptx" />
+    <xi:include href="./ch-creation-and-curation.ptx" />
+    <xi:include href="./ch-analysis-and-modeling.ptx" />
+    <xi:include href="./ch-interpreting-problems-results.ptx" />
+    <xi:include href="./ch-visualization-communication.ptx" />
+    <xi:include href="./ch-planning-first-lesson.ptx" />
 
 
     <!-- Include backmatter -->
