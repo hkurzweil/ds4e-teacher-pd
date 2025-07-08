@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: tacoma                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Organizing and Cleaning Data: From Messy to Meaningful</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Educator Professional Development">
+<meta property="book:author" content="Hannah Kurzweil">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.8.4';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.962d00926ef9460e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.2e7f40e86ae7d163.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Educator Professional Development</span> <span class="subtitle">Onboarding to the Data Science Learning Progressions</span></a></h1>
+<p class="byline">Hannah Kurzweil</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-data-collection-in-practice.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-creation-and-curation.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-working-with-existing-datasets.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-what-is-data-science-education.html" class="internal"><span class="codenumber">1</span> <span class="title">What is Data Science Education?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-science-everywhere.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Data Science is Everywhere (Including Your Classroom)</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-building-confidence.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Building Your Confidence: You’re Already a Data Science Teacher</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next.html" class="internal"><span class="codenumber">1.3</span> <span class="title">What’s Next: Your Learning Journey</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-data-dispositions-responsibilities.html" class="internal"><span class="codenumber">2</span> <span class="title">Module 1: Data Dispositions and Responsibilities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-building-curiosity-and-questioning.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Building Data Curiosity and Questioning Skills</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-recognizing-bias-and-ethical-thinking.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Recognizing Bias and Developing Ethical Data Thinking</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-investigative-mindset-and-agency.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Developing an Investigative Mindset and Student Data Agency</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Putting It All Together: Your Data Dispositions Action Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-1.html" class="internal"><span class="codenumber">2.5</span> <span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-creation-and-curation.html" class="internal"><span class="codenumber">3</span> <span class="title">Module 2: Creation and Curation</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-from-questions-to-data-collection.html" class="internal"><span class="codenumber">3.1</span> <span class="title">From Questions to Data Collection: Designing Simple Investigations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-collection-in-practice.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Data Collection in Practice: Student Surveys and Observations</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-organizing-and-cleaning-data.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Organizing and Cleaning Data: From Messy to Meaningful</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-existing-datasets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Working with Existing Datasets: Finding and Using Secondary Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-complexity-and-quality.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Understanding Data Complexity and Quality</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together-creation-curation.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Putting It All Together: Your Data Creation and Curation Action Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-2.html" class="internal"><span class="codenumber">3.7</span> <span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-organizing-and-cleaning-data"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.3</span><span class="space"> </span><span class="title">Organizing and Cleaning Data: From Messy to Meaningful</span>
+</h2>
+<div class="para" id="sec-organizing-and-cleaning-data-2">Real-world data collection is messy. Students might record information inconsistently, miss data points, or make recording errors. Teaching students to organize and clean data helps them understand that data analysis requires careful preparation.<div class="autopermalink" data-description="Paragraph"><a href="#sec-organizing-and-cleaning-data-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="video-box" style="width: 70%;padding-top: 39.375%; margin-left: 15%; margin-right: 15%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/kMhbXOTyZ9s?&amp;modestbranding=1&amp;rel=0" id="sec-organizing-and-cleaning-data-3"></iframe></div>
+<div class="para" id="sec-organizing-and-cleaning-data-4">
+<em class="emphasis">This 6-minute video shows students working with messy data and learning to organize it for analysis.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-organizing-and-cleaning-data-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="identifying-data-problems" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="identifying-data-problems-1-1">Students survey classmates about favorite colors and get these responses: “blue”, “Blue”, “light blue”, “navy”, “red”, “RED”, “green”. What problems do you notice?<div class="autopermalink" data-description="Paragraph"><a href="#identifying-data-problems-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="identifying-data-problems-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="identifying-data-problems-2-1">Look for inconsistencies in how the same type of response is recorded.<div class="autopermalink" data-description="Paragraph"><a href="#identifying-data-problems-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.3.1.1"><a href="#identifying-data-problems-2" title="Copy heading and permalink for Hint 3.3.1.1" aria-label="Copy heading and permalink for Hint 3.3.1.1">🔗</a></div>
+</div></details><details id="identifying-data-problems-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="identifying-data-problems-3-1">Inconsistent capitalization and unclear categories (are “blue”, “light blue”, and “navy” the same or different?).<div class="autopermalink" data-description="Paragraph"><a href="#identifying-data-problems-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.3.1.1"><a href="#identifying-data-problems-3" title="Copy heading and permalink for Answer 3.3.1.1" aria-label="Copy heading and permalink for Answer 3.3.1.1">🔗</a></div>
+</div></details><details id="identifying-data-problems-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="identifying-data-problems-4-1">This data needs cleaning because: (1) capitalization is inconsistent (“blue” vs “Blue” vs “RED”), and (2) it’s unclear whether “light blue” and “navy” should count as “blue” or be separate categories. Students need to make decisions about how to group responses consistently before they can analyze the data meaningfully.<div class="autopermalink" data-description="Paragraph"><a href="#identifying-data-problems-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.3.1.1"><a href="#identifying-data-problems-4" title="Copy heading and permalink for Solution 3.3.1.1" aria-label="Copy heading and permalink for Solution 3.3.1.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.3.1"><a href="#identifying-data-problems" title="Copy heading and permalink for Checkpoint 3.3.1" aria-label="Copy heading and permalink for Checkpoint 3.3.1">🔗</a></div></article></details><article class="exploration project-like" id="exploration-data-organization"><h3 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Try This Week: Data Organization Practice.</span>
+</h3>
+<div class="para" id="exploration-data-organization-2">
+<em class="emphasis">Time needed:</em> 15-20 minutes after data collection<div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-data-organization-3">
+<em class="emphasis">Basic Organization Steps:</em><div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-data-organization-4">
+<em class="emphasis">1. Check for Completeness:</em> Are there any missing responses? Illegible entries?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-data-organization-5">
+<em class="emphasis">2. Standardize Formats:</em> Make capitalization consistent, spell out abbreviations, use consistent units.<div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-data-organization-6">
+<em class="emphasis">3. Group Similar Responses:</em> Decide how to handle responses that are similar but not identical.<div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-data-organization-7">
+<em class="emphasis">4. Create Simple Tables:</em> Organize data into rows and columns with clear labels.<div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-data-organization-8">
+<em class="emphasis">5. Double-Check Numbers:</em> Do counts add up correctly? Are calculations accurate?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-data-organization-9">
+<em class="emphasis">Elementary Approach:</em> Work through data organization as a whole class, making decisions together about how to handle problems.<div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-data-organization-10">
+<em class="emphasis">Secondary Approach:</em> Have students work in small groups to clean their data, then compare approaches and discuss which methods work best.<div class="autopermalink" data-description="Paragraph"><a href="#exploration-data-organization-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exploration 3.3.1: Try This Week: Data Organization Practice"><a href="#exploration-data-organization" title="Copy heading and permalink for Exploration 3.3.1: Try This Week: Data Organization Practice" aria-label="Copy heading and permalink for Exploration 3.3.1: Try This Week: Data Organization Practice">🔗</a></div></article><details id="data-cleaning-decisions" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Making Data Cleaning Decisions.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="data-cleaning-decisions-2"><div class="para" id="data-cleaning-decisions-2-1">Data cleaning often requires making judgment calls about how to handle inconsistent responses.<div class="autopermalink" data-description="Paragraph"><a href="#data-cleaning-decisions-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="data-cleaning-decisions-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="data-cleaning-decisions-3-1-1">Students are collecting data about pets and get responses like: “dog”, “puppy”, “golden retriever”, “cat”, “kitten”, “fish”. How should they group these responses?<div class="autopermalink" data-description="Paragraph"><a href="#data-cleaning-decisions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="data-cleaning-decisions-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="data-cleaning-decisions-3-2-1">Consider what level of detail would be most useful for their investigation.<div class="autopermalink" data-description="Paragraph"><a href="#data-cleaning-decisions-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.3.2.a.1"><a href="#data-cleaning-decisions-3-2" title="Copy heading and permalink for Hint 3.3.2.a.1" aria-label="Copy heading and permalink for Hint 3.3.2.a.1">🔗</a></div>
+</div></details><details id="data-cleaning-decisions-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="data-cleaning-decisions-3-3-1">Group by general animal type: “dog” (including puppy and golden retriever), “cat” (including kitten), “fish”.<div class="autopermalink" data-description="Paragraph"><a href="#data-cleaning-decisions-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.3.2.a.1"><a href="#data-cleaning-decisions-3-3" title="Copy heading and permalink for Answer 3.3.2.a.1" aria-label="Copy heading and permalink for Answer 3.3.2.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.3.2.a"><a href="#data-cleaning-decisions-3" title="Copy heading and permalink for Task 3.3.2.a" aria-label="Copy heading and permalink for Task 3.3.2.a">🔗</a></div></article><article class="task exercise-like" id="data-cleaning-decisions-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="data-cleaning-decisions-4-1-1">What if their original question was specifically about dog breeds? How might they handle the data differently?<div class="autopermalink" data-description="Paragraph"><a href="#data-cleaning-decisions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="data-cleaning-decisions-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="data-cleaning-decisions-4-2-1">They might keep “golden retriever” separate and ask follow-up questions to get breed information for “dog” and “puppy” responses.<div class="autopermalink" data-description="Paragraph"><a href="#data-cleaning-decisions-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.3.2.b.1"><a href="#data-cleaning-decisions-4-2" title="Copy heading and permalink for Answer 3.3.2.b.1" aria-label="Copy heading and permalink for Answer 3.3.2.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.3.2.b"><a href="#data-cleaning-decisions-4" title="Copy heading and permalink for Task 3.3.2.b" aria-label="Copy heading and permalink for Task 3.3.2.b">🔗</a></div></article><div class="conclusion" id="data-cleaning-decisions-5"><div class="para" id="data-cleaning-decisions-5-1">Data cleaning decisions should always connect back to the original question you’re trying to answer.<div class="autopermalink" data-description="Paragraph"><a href="#data-cleaning-decisions-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="autopermalink" data-description="Checkpoint 3.3.2: Making Data Cleaning Decisions"><a href="#data-cleaning-decisions" title="Copy heading and permalink for Checkpoint 3.3.2: Making Data Cleaning Decisions" aria-label="Copy heading and permalink for Checkpoint 3.3.2: Making Data Cleaning Decisions">🔗</a></div></article></details><details id="handling-missing-data" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.3</span><span class="period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="handling-missing-data-1-1">During a survey about homework time, some students leave the question blank. What are two reasonable ways to handle this missing data?<div class="autopermalink" data-description="Paragraph"><a href="#handling-missing-data-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="handling-missing-data-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="handling-missing-data-2-1">Consider whether missing responses should be ignored, estimated, or treated as a separate category.<div class="autopermalink" data-description="Paragraph"><a href="#handling-missing-data-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.3.3.1"><a href="#handling-missing-data-2" title="Copy heading and permalink for Hint 3.3.3.1" aria-label="Copy heading and permalink for Hint 3.3.3.1">🔗</a></div>
+</div></details><details id="handling-missing-data-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="handling-missing-data-3-1">(1) Exclude those responses from analysis, or (2) follow up with those students to get complete data.<div class="autopermalink" data-description="Paragraph"><a href="#handling-missing-data-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.3.3.1"><a href="#handling-missing-data-3" title="Copy heading and permalink for Answer 3.3.3.1" aria-label="Copy heading and permalink for Answer 3.3.3.1">🔗</a></div>
+</div></details><details id="handling-missing-data-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="handling-missing-data-4-1">The best approach depends on how much data is missing and why. If only a few students didn’t respond, you might exclude those responses or follow up to get complete information. If many students skipped the question, you need to consider whether the question was unclear or too personal. Don’t guess or make up missing data—that creates false information.<div class="autopermalink" data-description="Paragraph"><a href="#handling-missing-data-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.3.3.1"><a href="#handling-missing-data-4" title="Copy heading and permalink for Solution 3.3.3.1" aria-label="Copy heading and permalink for Solution 3.3.3.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.3.3"><a href="#handling-missing-data" title="Copy heading and permalink for Checkpoint 3.3.3" aria-label="Copy heading and permalink for Checkpoint 3.3.3">🔗</a></div></article></details><div class="autopermalink" data-description="Section 3.3: Organizing and Cleaning Data: From Messy to Meaningful"><a href="#sec-organizing-and-cleaning-data" title="Copy heading and permalink for Section 3.3: Organizing and Cleaning Data: From Messy to Meaningful" aria-label="Copy heading and permalink for Section 3.3: Organizing and Cleaning Data: From Messy to Meaningful">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-data-collection-in-practice.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-working-with-existing-datasets.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
