@@ -19,6 +19,8 @@
     <xi:include href="./ch-interpreting-problems-results.ptx" />
     <xi:include href="./ch-visualization-communication.ptx" />
     <xi:include href="./ch-planning-first-lesson.ptx" />
+    <xi:include href="./ch-building-toolkit.ptx" />
+    <xi:include href="./ch-assessment-growth.ptx" />
 
 
     <!-- Include backmatter -->

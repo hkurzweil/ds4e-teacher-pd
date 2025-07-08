@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-building-toolkit">
+    <title>Module 7: Building Your Data Science Toolkit</title>
+    
+    <introduction>
+        <p>
+            Welcome to your data science toolkit development! This module focuses on building a sustainable collection of tools, resources, and datasets that will support your data science teaching for years to come.
+        </p>
+        
+        <p>
+            Building Your Data Science Toolkit isn't about mastering every available technology or collecting hundreds of datasets. It's about strategically selecting tools and resources that match your teaching style, your students' needs, and your comfort level, then gradually expanding your capabilities over time.
+        </p>
+        
+        <video youtube="T9mK3pL7-4s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this 6-minute video showing teachers building their personalized data science toolkits across different grade levels and subjects.</em>
+        </p>
+        
+        <p>
+            By the end of this module, you'll have a curated collection of tools appropriate for your context, vetted datasets ready to use with students, a systematic approach to evaluating new resources, and a plan for gradually expanding your toolkit as your confidence grows.
+        </p>
+        
+        <p>
+            <em>Estimated time:</em> 60-90 minutes
+        </p>
+    </introduction>
+
+    <section xml:id="sec-choosing-right-tools">
+        <title>Choosing the Right Tools for Your Context</title>
+        
+        <p>
+            The best data science tools for your classroom are the ones you'll actually use consistently. This means considering not just what's most powerful or popular, but what fits your technology environment, your comfort level, and your students' needs.
+        </p>
+        
+        <exercise xml:id="tool-selection-factors">
+            <statement>
+                <p>
+                    When choosing data science tools for your classroom, what should be your primary consideration?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about sustainability and consistent use rather than getting the most advanced options.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Tools that you can use reliably and consistently with your students, given your technology constraints and comfort level.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The best tool is the one that works reliably in your specific context. A simple tool you can use confidently every week is infinitely better than a sophisticated tool that intimidates you or constantly has technical problems. Consider your device availability, internet reliability, student tech skills, and your own comfort level before choosing tools.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-tool-picker">
+            <title>Interactive Tool Picker: Finding Your Starting Point</title>
+            
+            <p>
+                <em>Time needed:</em> 20 minutes to identify and prioritize tools
+            </p>
+            
+            <p>
+                Use this decision tree to identify which tools make sense for your teaching context:
+            </p>
+            
+            <p>
+                <em>Step 1: Assess Your Technology Environment</em>
+            </p>
+            <p>
+                • What devices do your students have access to? (tablets, laptops, desktop computers, smartphones)
+            </p>
+            <p>
+                • How reliable is your internet connection?
+            </p>
+            <p>
+                • Are there restrictions on installing software or accessing websites?
+            </p>
+            <p>
+                • How much tech support do you have available?
+            </p>
+            
+            <p>
+                <em>Step 2: Define Your Immediate Needs</em>
+            </p>
+            <p>
+                • Do you need tools for data collection, analysis, visualization, or all three?
+            </p>
+            <p>
+                • Will you work primarily with data you create or datasets that already exist?
+            </p>
+            <p>
+                • How important is it that students can access tools from home?
+            </p>
+            
+            <p>
+                <em>Step 3: Consider Your Comfort Zone</em>
+            </p>
+            <p>
+                • Do you prefer web-based tools or downloadable software?
+            </p>
+            <p>
+                • Are you comfortable learning alongside your students, or do you prefer to master tools first?
+            </p>
+            <p>
+                • How much time can you realistically spend learning new tools?
+            </p>
+        </exploration>
+        
+        <exploration xml:id="exploration-tool-recommendations">
+            <title>Grade-Appropriate Tool Recommendations</title>
+            
+            <p>
+                Based on the tool picker results, here are reliable options for different contexts:
+            </p>
+            
+            <p>
+                <em>Elementary (K-5) Toolkit:</em>
+            </p>
+            
+            <p>
+                <em>Data Collection:</em> Google Forms (free, simple surveys), Class tally sheets, Digital cameras for observation data
+            </p>
+            
+            <p>
+                <em>Analysis &amp; Visualization:</em> Google Sheets (basic graphs), Online graph makers (KidsZone GraphIt, Create A Graph), Physical manipulatives and chart paper
+            </p>
+            
+            <p>
+                <em>Datasets:</em> Census.gov kids' data, Local weather data, School lunch participation numbers
+            </p>
+            
+            <p>
+                <em>Secondary (6-12) Toolkit:</em>
+            </p>
+            
+            <p>
+                <em>Data Collection:</em> Google Forms or Microsoft Forms, Survey tools (SurveyMonkey), Sensor-based data collection apps
+            </p>
+            
+            <p>
+                <em>Analysis &amp; Visualization:</em> Google Sheets or Excel, CODAP (free, designed for education), Tableau Public (free), Introduction to R or Python (when ready)
+            </p>
+            
+            <p>
+                <em>Datasets:</em> Data.gov, Google Dataset Search, Kaggle Learn datasets, Local government open data
+            </p>
+            
+            <p>
+                <em>Universal Backup Tools (any grade):</em>
+            </p>
+            <p>
+                • Paper and pencil (always works!)
+            </p>
+            <p>
+                • Sticky notes for data sorting
+            </p>
+            <p>
+                • Chart paper and markers
+            </p>
+            <p>
+                • Simple calculators
+            </p>
+        </exploration>
+        
+        <video youtube="R7mK3nP8-6s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>This 5-minute video shows teachers setting up and testing tools in their specific classroom environments.</em>
+        </p>
+        
+        <exercise xml:id="tool-progression-planning">
+            <statement>
+                <p>
+                    How should you approach building technical skills in data science tools over time?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about sustainable professional growth rather than trying to master everything at once.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Start with simple, reliable tools and gradually add more sophisticated options as your confidence and needs grow.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Tool mastery should follow a progression: start with tools that work reliably in your environment and match your current skill level. Once you're comfortable using these consistently, identify one new tool per semester or year to explore. This prevents overwhelm while ensuring steady growth in your capabilities.
+                </p>
+            </solution>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-finding-vetting-datasets">
+        <title>Finding and Vetting Quality Datasets</title>
+        
+        <p>
+            Having a collection of vetted, classroom-ready datasets saves enormous time in lesson planning and ensures you always have reliable data to work with. The key is building a curated collection rather than searching frantically when you need data.
+        </p>
+        
+        <exploration xml:id="exploration-dataset-hunting">
+            <title>Try This Week: Dataset Treasure Hunt</title>
+            
+            <p>
+                <em>Time needed:</em> 30 minutes to find and evaluate 3 datasets
+            </p>
+            
+            <p>
+                <em>Goal:</em> Build a starter collection of 5-10 vetted datasets you can use immediately
+            </p>
+            
+            <p>
+                <em>Elementary Dataset Sources:</em>
+            </p>
+            <p>
+                • Census.gov kids section (population, housing, demographics)
+            </p>
+            <p>
+                • Local weather service historical data
+            </p>
+            <p>
+                • School district websites (enrollment, test scores, demographics)
+            </p>
+            <p>
+                • Sports statistics (baseball, soccer, Olympics)
+            </p>
+            <p>
+                • NASA kids' data (space, Earth science)
+            </p>
+            
+            <p>
+                <em>Secondary Dataset Sources:</em>
+            </p>
+            <p>
+                • Data.gov (government data across all topics)
+            </p>
+            <p>
+                • Google Dataset Search (comprehensive search engine)
+            </p>
+            <p>
+                • Kaggle Learn (curated educational datasets)
+            </p>
+            <p>
+                • World Bank Open Data (international economics, development)
+            </p>
+            <p>
+                • Local government open data portals
+            </p>
+            
+            <p>
+                <em>Dataset Evaluation Checklist:</em>
+            </p>
+            <p>
+                ✓ Appropriate content for students (no sensitive personal information)
+            </p>
+            <p>
+                ✓ Manageable size (under 100 rows for elementary, under 500 for secondary)
+            </p>
+            <p>
+                ✓ Clear variable names and definitions
+            </p>
+            <p>
+                ✓ Recent enough to be relevant (within 5 years for most topics)
+            </p>
+            <p>
+                ✓ Connects to curriculum standards or student interests
+            </p>
+            <p>
+                ✓ Reliable source with proper attribution information
+            </p>
+        </exploration>
+        
+        <exercise xml:id="dataset-quality-assessment">
+            <statement>
+                <p>
+                    You find a dataset about student academic performance from 2019 with 50 variables and 2,000 rows. What's the most important step before using it with students?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about making the dataset manageable and appropriate for classroom use.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Simplify it by selecting only relevant variables and a representative sample of rows.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    This dataset is too complex for direct classroom use. Select 3-5 variables that relate to your learning objectives and randomly sample 50-100 rows (or focus on a specific geographic area or time period). Also ensure any personally identifiable information is removed and that the data is appropriate for your students' grade level.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-dataset-organization">
+            <title>Organizing Your Dataset Collection</title>
+            
+            <p>
+                Create a simple system for organizing and documenting your datasets:
+            </p>
+            
+            <p>
+                <em>Dataset Documentation Template:</em>
+            </p>
+            <p>
+                • <em>Dataset Name:</em> Brief, descriptive title
+            </p>
+            <p>
+                • <em>Source:</em> Where it came from, with URL
+            </p>
+            <p>
+                • <em>Description:</em> What it contains, 1-2 sentences
+            </p>
+            <p>
+                • <em>Size:</em> Number of rows and columns
+            </p>
+            <p>
+                • <em>Grade Level:</em> Appropriate grade range
+            </p>
+            <p>
+                • <em>Subject Connections:</em> Which subjects it could support
+            </p>
+            <p>
+                • <em>Key Variables:</em> Most important columns for analysis
+            </p>
+            <p>
+                • <em>Potential Questions:</em> 2-3 investigation questions it could answer
+            </p>
+            <p>
+                • <em>Notes:</em> Any cleaning needed, limitations, or teaching tips
+            </p>
+            
+            <p>
+                <em>Storage Options:</em>
+            </p>
+            <p>
+                • Google Drive folder with subfolders by subject/grade
+            </p>
+            <p>
+                • Simple spreadsheet catalog with links to datasets
+            </p>
+            <p>
+                • Cloud storage with consistent file naming conventions
+            </p>
+        </exploration>
+        
+        <exercise xml:id="dataset-ethics">
+            <statement>
+                <p>
+                    What ethical considerations should guide your dataset selection for classroom use?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about privacy, representation, and age-appropriateness.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Ensure data protects individual privacy, represents people fairly, and is appropriate for students' developmental level.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Key ethical considerations include: (1) No personally identifiable information about individuals, (2) Datasets that represent diverse populations fairly, (3) Age-appropriate content that won't distress students, (4) Proper attribution to original data creators, (5) Avoiding datasets that could perpetuate harmful stereotypes, and (6) Respecting any usage restrictions or licensing requirements.
+                </p>
+            </solution>
+        </exercise>
+        
+        <video youtube="M8kR7tL3-9s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>This 4-minute video shows teachers creating and organizing their dataset collections for easy classroom access.</em>
+        </p>
+    </section>
+
+    <section xml:id="sec-setting-up-digital-tools">
+        <title>Setting Up Your Digital Tools</title>
+        
+        <p>
+            Once you've identified the tools that fit your context, the next step is setting them up for smooth classroom use. This includes creating accounts, testing functionality, and preparing backup plans for when technology doesn't cooperate.
+        </p>
+        
+        <exploration xml:id="exploration-tool-setup">
+            <title>Try This Week: Set Up One New Tool</title>
+            
+            <p>
+                <em>Time needed:</em> 45 minutes to fully set up and test one tool
+            </p>
+            
+            <p>
+                Choose one tool from your prioritized list and work through this complete setup process:
+            </p>
+            
+            <p>
+                <em>Phase 1: Account and Access Setup (15 minutes)</em>
+            </p>
+            <p>
+                • Create necessary accounts (yours and, if needed, a test student account)
+            </p>
+            <p>
+                • Verify the tool works on your classroom devices
+            </p>
+            <p>
+                • Check if students need individual accounts or can share one
+            </p>
+            <p>
+                • Test internet connectivity requirements
+            </p>
+            
+            <p>
+                <em>Phase 2: Functionality Testing (20 minutes)</em>
+            </p>
+            <p>
+                • Import or create a small sample dataset
+            </p>
+            <p>
+                • Try the basic functions you'll need (graphing, sorting, calculating)
+            </p>
+            <p>
+                • Test sharing/collaboration features if applicable
+            </p>
+            <p>
+                • Export or save work in multiple formats
+            </p>
+            
+            <p>
+                <em>Phase 3: Classroom Integration Planning (10 minutes)</em>
+            </p>
+            <p>
+                • Identify potential technical challenges and solutions
+            </p>
+            <p>
+                • Plan how students will access the tool (login process, device distribution)
+            </p>
+            <p>
+                • Prepare a non-digital backup plan for the same activity
+            </p>
+            <p>
+                • Create a simple instruction sheet for students
+            </p>
+        </exploration>
+        
+        <exercise xml:id="technical-troubleshooting">
+            <statement>
+                <p>
+                    During your tool setup, you discover that the district firewall blocks access to your chosen data visualization website. What's your best next step?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about sustainable solutions rather than trying to work around technical restrictions.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Find an alternative tool that works within your constraints, or prepare a non-digital method to achieve the same learning goals.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Fighting technology restrictions usually isn't worth the effort and stress. Instead, identify alternative tools that work in your environment (like offline software or different websites), or develop paper-based methods for the same activities. Remember: the goal is student learning, not using specific tools.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-student-tech-setup">
+            <title>Preparing Students for Tool Use</title>
+            
+            <p>
+                Student success with digital tools depends on clear expectations and simple procedures:
+            </p>
+            
+            <p>
+                <em>Before First Use:</em>
+            </p>
+            <p>
+                • Create simple, visual instruction guides (screenshots work great)
+            </p>
+            <p>
+                • Plan for different student tech skill levels
+            </p>
+            <p>
+                • Identify tech-savvy students who can help peers
+            </p>
+            <p>
+                • Test the tool with a small group first
+            </p>
+            
+            <p>
+                <em>During Tool Introduction:</em>
+            </p>
+            <p>
+                • Start with the simplest possible task
+            </p>
+            <p>
+                • Demonstrate each step clearly
+            </p>
+            <p>
+                • Build in time for exploration and questions
+            </p>
+            <p>
+                • Have alternatives ready for students who struggle
+            </p>
+            
+            <p>
+                <em>Ongoing Support Strategies:</em>
+            </p>
+            <p>
+                • Post instructions somewhere students can reference them
+            </p>
+            <p>
+                • Create "tech helper" roles for confident students
+            </p>
+            <p>
+                • Keep backup activities for rapid finishers
+            </p>
+            <p>
+                • Save student work frequently to prevent loss
+            </p>
+        </exploration>
+        
+        <exercise xml:id="tool-integration-planning">
+            <statement>
+                <p>
+                    What's the most important factor for successful integration of digital tools in data science lessons?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about what should drive your tool choices and usage decisions.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The tool should support the learning objectives, not become the focus of the lesson.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Technology should be invisible—students should focus on data thinking, not on figuring out how to use the tool. If students spend more time troubleshooting than analyzing data, the tool is getting in the way of learning. Choose tools that enhance data science thinking without adding unnecessary complexity.
+                </p>
+            </solution>
+        </exercise>
+        
+        <video youtube="N7hK4mT8-3s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this 6-minute video of teachers walking through their digital tool setup process and sharing troubleshooting tips.</em>
+        </p>
+    </section>
+
+    <section xml:id="sec-evaluating-new-resources">
+        <title>Evaluating and Adding New Resources</title>
+        
+        <p>
+            The data science education landscape changes rapidly, with new tools, datasets, and resources appearing regularly. Having a systematic approach to evaluating additions to your toolkit helps you stay current without getting overwhelmed by every new option.
+        </p>
+        
+        <exploration xml:id="exploration-resource-evaluation">
+            <title>Resource Evaluation Framework</title>
+            
+            <p>
+                Use this framework to decide whether new resources are worth adding to your toolkit:
+            </p>
+            
+            <p>
+                <em>Initial Screening Questions:</em>
+            </p>
+            <p>
+                • Does this fill a gap in my current toolkit?
+            </p>
+            <p>
+                • Is it appropriate for my students' grade level and tech skills?
+            </p>
+            <p>
+                • Can I realistically learn to use this effectively?
+            </p>
+            <p>
+                • Is it reliable and likely to be available long-term?
+            </p>
+            
+            <p>
+                <em>Deeper Evaluation Criteria:</em>
+            </p>
+            <p>
+                • <em>Ease of Use:</em> Can students focus on data thinking rather than tool mechanics?
+            </p>
+            <p>
+                • <em>Educational Value:</em> Does it enhance learning in ways my current tools don't?
+            </p>
+            <p>
+                • <em>Technical Requirements:</em> Does it work reliably in my classroom environment?
+            </p>
+            <p>
+                • <em>Support and Documentation:</em> Are there tutorials, help resources, or community support?
+            </p>
+            <p>
+                • <em>Cost and Sustainability:</em> Is it free, or worth the cost for long-term use?
+            </p>
+            
+            <p>
+                <em>Trial Process:</em>
+            </p>
+            <p>
+                1. Test the resource yourself with sample data
+            </p>
+            <p>
+                2. Try it with a small group of students or volunteer colleagues
+            </p>
+            <p>
+                3. Compare it directly to your current tools for similar tasks
+            </p>
+            <p>
+                4. Assess whether the learning curve is worth the benefits
+            </p>
+            <p>
+                5. Make a decision within a reasonable timeframe (don't endlessly evaluate)
+            </p>
+        </exploration>
+        
+        <exercise xml:id="resource-overwhelm">
+            <statement>
+                <p>
+                    You discover five new data science tools that all look interesting and potentially useful. What's the best approach to evaluating them?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about sustainable professional development and avoiding tool overload.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Choose one tool to evaluate thoroughly rather than trying to learn about all five superficially.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Focus on deep evaluation of one tool at a time. Bookmark the others for future consideration, but resist the urge to try everything immediately. It's better to master one new tool per semester and use it effectively than to constantly switch between half-learned tools. Quality over quantity in your toolkit.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exploration xml:id="exploration-staying-current">
+            <title>Staying Current Without Getting Overwhelmed</title>
+            
+            <p>
+                Strategies for keeping up with new developments in educational data science:
+            </p>
+            
+            <p>
+                <em>Efficient Information Sources:</em>
+            </p>
+            <p>
+                • Follow 2-3 trusted educational technology blogs or newsletters
+            </p>
+            <p>
+                • Join one active online community (Facebook group, Reddit, Discord)
+            </p>
+            <p>
+                • Connect with other data science educators in your district or region
+            </p>
+            <p>
+                • Attend one virtual or in-person conference per year
+            </p>
+            
+            <p>
+                <em>Time Management Strategies:</em>
+            </p>
+            <p>
+                • Set aside 30 minutes monthly for exploring new resources
+            </p>
+            <p>
+                • Create a "someday maybe" list for interesting tools to investigate later
+            </p>
+            <p>
+                • Focus on resources that solve current problems rather than just interesting ones
+            </p>
+            <p>
+                • Partner with colleagues to share evaluation workload
+            </p>
+            
+            <p>
+                <em>Implementation Boundaries:</em>
+            </p>
+            <p>
+                • Limit yourself to learning one new major tool per semester
+            </p>
+            <p>
+                • Only add resources that clearly improve on what you're currently using
+            </p>
+            <p>
+                • Be willing to remove tools that you're not using consistently
+            </p>
+            <p>
+                • Remember: good enough is often better than perfect
+            </p>
+        </exploration>
+        
+        <exercise xml:id="toolkit-maintenance">
+            <statement>
+                <p>
+                    How often should you review and update your data science toolkit?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about balancing staying current with maintaining stability in your teaching practice.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Review annually, with minor updates each semester as needed.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Annual reviews help you assess what's working well and what needs improvement, while semester check-ins allow for minor adjustments. This schedule prevents constant tool switching while ensuring your toolkit stays relevant and effective. Major changes should be rare—stability in your toolkit allows you to focus on improving your teaching rather than learning new systems.
+                </p>
+            </solution>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-putting-it-together-toolkit">
+        <title>Putting It All Together: Your Personal Toolkit Action Plan</title>
+        
+        <p>
+            You've explored strategies for selecting tools, finding datasets, setting up technology, and evaluating new resources. Now let's create a concrete plan for building and maintaining your data science toolkit over time.
+        </p>
+        
+        <exploration xml:id="exploration-toolkit-implementation">
+            <title>Choose Your Toolkit Development Approach</title>
+            
+            <p>
+                Consider which approach matches your current situation and comfort level:
+            </p>
+            
+            <p>
+                <em>Option 1: Minimalist Approach</em> - Start with 1-2 tools you can master completely before adding anything new. Focus on paper-based backups and simple digital tools.
+            </p>
+            
+            <p>
+                <em>Option 2: Gradual Builder</em> - Identify 3-4 core tools and spend this year becoming proficient with them. Add one new tool each semester based on emerging needs.
+            </p>
+            
+            <p>
+                <em>Option 3: Early Adopter</em> - Comfortable with technology and want to explore multiple options. Focus on systematic evaluation and documentation of what works.
+            </p>
+            
+            <p>
+                <em>Option 4: Collaborative Approach</em> - Partner with colleagues to share toolkit development. Different people focus on different tool categories and share discoveries.
+            </p>
+        </exploration>
+        
+        <exercise xml:id="toolkit-implementation-planning">
+            <statement>
+                <p>
+                    What's the most important principle to remember when building your data science toolkit?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about the purpose of the toolkit and what makes it most useful for teaching.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Your toolkit should support consistent, effective teaching rather than showcasing the latest technology.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The best toolkit is the one that helps you teach data science concepts effectively and consistently. It should reduce your workload, not increase it. Tools should be reliable, appropriate for your students, and aligned with your teaching goals. Don't chase the latest trends—focus on building a solid foundation of tools you can use confidently.
+                </p>
+            </solution>
+        </exercise>
+        
+        <exercise xml:id="my-toolkit-action-plan">
+            <title>My Data Science Toolkit Action Plan</title>
+            <introduction>
+                <p>
+                    Create your specific plan for building and maintaining your toolkit over the next year.
+                </p>
+            </introduction>
+            <task>
+                <p>
+                    Which development approach (minimalist, gradual builder, early adopter, collaborative) best fits your situation? Why?
+                </p>
+            </task>
+            <task>
+                <p>
+                    List 3 specific tools you want to set up and test in the next month. What will you use each one for?
+                </p>
+            </task>
+            <task>
+                <p>
+                    Identify 5 datasets you want to find and organize for immediate use. What subjects/topics will they support?
+                </p>
+            </task>
+            <task>
+                <p>
+                    How will you stay organized and avoid toolkit overwhelm? What boundaries will you set?
+                </p>
+            </task>
+            <task>
+                <p>
+                    Who can you partner with or learn from as you build your toolkit? How will you connect with other data science educators?
+                </p>
+            </task>
+            <conclusion>
+                <p>
+                    Remember: Your toolkit should evolve with your teaching practice. Start simple, build systematically, and focus on tools that enhance student learning.
+                </p>
+            </conclusion>
+        </exercise>
+        
+        <video youtube="P4nK7mR5-8s" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this 5-minute video of teachers sharing their toolkit development strategies and lessons learned.</em>
+        </p>
+        
+        <exercise xml:id="reflection-toolkit">
+            <p>
+                Before moving to the final module, reflect: What aspects of toolkit building feel most exciting to you? What feels most challenging? How will you maintain momentum as you develop your resources over time?
+            </p>
+        </exercise>
+    </section>
+
+    <section xml:id="sec-whats-next-module-7">
+        <title>What's Next?</title>
+        
+        <p>
+            Excellent work building your data science toolkit! You now have a systematic approach to selecting, setting up, and maintaining the tools and resources that will support your data science teaching for years to come.
+        </p>
+        
+        <p>
+            In our final module, <em>Assessment and Growth</em>, we'll explore how to assess student learning in data science, design appropriate rubrics for your context, and plan your continued growth as a data science educator.
+        </p>
+        
+        <p>
+            Remember: Your toolkit will evolve as your teaching practice develops. What matters most is having reliable tools that support meaningful student learning. Start with what you can use confidently and build from there.
+        </p>
+        
+        <p>
+            <em>Estimated time for this module:</em> 60-90 minutes
+        </p>
+        
+        <p>
+            <em>Next up:</em> Module 8 - Assessment and Growth (60-90 minutes)
+        </p>
+        
+        <p>
+            <em>Implementation goal:</em> Set up and test at least one new tool from your action plan within the next two weeks!
+        </p>
+    </section>
+
+</chapter>
