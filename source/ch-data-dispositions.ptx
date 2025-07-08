@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-data-dispositions-responsibilities">
+    <title>Module 1: Data Dispositions and Responsibilities</title>
+    
+    <introduction>
+        <p>
+            Welcome to the foundation of data science education! This module focuses on developing the right <em>mindset</em> for working with data—both for you and your students.
+        </p>
+        
+        <p>
+            Data Dispositions and Responsibilities isn't about memorizing definitions or learning technical skills. It's about cultivating curiosity, healthy skepticism, and ethical thinking. These are the habits of mind that make everything else in data science meaningful and responsible.
+        </p>
+        
+        <p>
+            By the end of this module, you'll have practical strategies to help your students:
+        </p>
+        
+        <p>
+            Ask better questions about the world around them
+        </p>
+        <p>
+            Recognize when data might be biased or incomplete
+        </p>
+        <p>
+            Understand their responsibility when collecting and sharing information about others
+        </p>
+        <p>
+            Approach problems with an investigative mindset
+        </p>
+        
+        <p>
+            <em>Estimated time:</em> 45-60 minutes
+        </p>
+    </introduction>
+
+    <section xml:id="sec-building-curiosity">
+        <title>Building Data Curiosity</title>
+        
+        <p>
+            Data science begins with curiosity—wondering about the world and asking questions that can be explored through information. But not all questions are <q>data questions.</q> Let's explore what makes a good question for data investigation.
+        </p>
+        
+        <exploration xml:id="exploration-good-questions">
+            <title>What Makes a Good Data Question?</title>
+            
+            <p>
+                Consider these questions a student might ask. Which ones could be explored through collecting and analyzing information?
+            </p>
+            
+            <p>
+                <em>Question 1:</em> <q>What's the best color?</q>
+            </p>
+            <p>
+                This is an opinion question. While we could survey people about favorite colors, there's no objective <q>best</q> color.
+            </p>
+            
+            <p>
+                <em>Question 2:</em> <q>Do students in our school prefer summer or winter?</q>
+            </p>
+            <p>
+                This is a great data question! We could survey students and analyze the results to find patterns.
+            </p>
+            
+            <p>
+                <em>Question 3:</em> <q>Why do people like music?</q>
+            </p>
+            <p>
+                This is too broad and philosophical. We might refine it to <q>What types of music are most popular among teenagers?</q>
+            </p>
+            
+            <p>
+                <em>Question 4:</em> <q>Has the weather in our town changed over the past 10 years?</q>
+            </p>
+            <p>
+                Excellent data question! We could gather weather data and look for trends over time.
+            </p>
+            
+            <p>
+                Notice the pattern? Good data questions are specific, measurable, and can be answered by collecting information.
+            </p>
+        </exploration>
+        
+        <remark>
+            <title>Teaching Tip: The Question Transformation Game</title>
+            <p>
+                When students ask broad or opinion-based questions, don't shut them down! Instead, play the <q>Question Transformation Game.</q> Help them reshape their curiosity into something investigable.
+            </p>
+            <p>
+                Student asks: <q>Why is math hard?</q>
+            </p>
+            <p>
+                You might transform it to: <q>What math topics do students in our class find most challenging?</q> or <q>How much time do students spend on math homework compared to other subjects?</q>
+            </p>
+        </remark>
+        
+        <exploration xml:id="exploration-curiosity-starters">
+            <title>Try This Week: Curiosity Starters</title>
+            
+            <p>
+                <em>Time needed:</em> 10 minutes during any lesson
+            </p>
+            
+            <p>
+                <em>How it works:</em> Use these sentence starters to help students generate data questions related to your current topic.
+            </p>
+            
+            <p>
+                <em>Elementary (K-5) Starters:</em>
+            </p>
+            <p>
+                <q>I wonder how many...</q>
+            </p>
+            <p>
+                <q>Which one is more popular...</q>
+            </p>
+            <p>
+                <q>Do most kids in our class...</q>
+            </p>
+            <p>
+                <q>How often does...</q>
+            </p>
+            
+            <p>
+                <em>Secondary (6-12) Starters:</em>
+            </p>
+            <p>
+                <q>What factors influence...</q>
+            </p>
+            <p>
+                <q>How has [topic] changed over time...</q>
+            </p>
+            <p>
+                <q>What's the relationship between...</q>
+            </p>
+            <p>
+                <q>Do students who [X] also tend to [Y]...</q>
+            </p>
+            
+            <p>
+                <em>Example in action:</em> During a lesson on weather (Science), a student uses <q>I wonder how many...</q> to ask <q>I wonder how many rainy days we have each month?</q> Perfect! Now you have a data investigation opportunity.
+            </p>
+        </exploration>
+    </section>
+
+    <section xml:id="sec-recognizing-bias">
+        <title>Recognizing Bias and Incomplete Information</title>
+        
+        <p>
+            One of the most important data dispositions is healthy skepticism. Not all data tells the complete story, and students need to develop the habit of asking: <q>What might this data be missing? Who collected this and why?</q>
+        </p>
+        
+        <exploration xml:id="exploration-playground-survey">
+            <title>The Playground Survey Problem</title>
+            
+            <p>
+                Let's explore bias through a simple scenario that works for any age:
+            </p>
+            
+            <p>
+                <em>The Scenario:</em> Jamie wants to find out what the most popular playground activity is at their school. They survey 20 students during recess and find that 15 out of 20 say <q>basketball</q> is their favorite.
+            </p>
+            
+            <p>
+                <em>Jamie's conclusion:</em> <q>Basketball is definitely the most popular playground activity at our school!</q>
+            </p>
+            
+            <p>
+                <em>What questions should we ask about this conclusion?</em>
+            </p>
+            
+            <p>
+                Where did Jamie conduct the survey? (If it was near the basketball court, that might bias the results)
+            </p>
+            <p>
+                When did they survey? (Maybe other activities happen at different times)
+            </p>
+            <p>
+                Who did they ask? (Were they all the same age? Same friend group?)
+            </p>
+            <p>
+                How did they ask the question? (Did they list options or let students answer freely?)
+            </p>
+            <p>
+                What other information might be helpful? (How many total students are at the school? What activities are available?)
+            </p>
+        </exploration>
+        
+        <p>
+            This scenario teaches students that data can be influenced by:
+        </p>
+        
+        <p>
+            <em>Where and when</em> information is collected
+        </p>
+        <p>
+            <em>Who</em> is asked (and who isn't asked)
+        </p>
+        <p>
+            <em>How</em> questions are worded
+        </p>
+        <p>
+            <em>Why</em> someone is collecting the information
+        </p>
+        
+        <remark>
+            <title>Age-Appropriate Bias Discussions</title>
+            <p>
+                <em>Elementary:</em> Focus on fairness. <q>Is this fair? Did everyone get a chance to share their opinion?</q>
+            </p>
+            <p>
+                <em>Middle School:</em> Introduce the word <q>bias</q> and connect to their sense of justice. <q>Whose voices might be missing from this data?</q>
+            </p>
+            <p>
+                <em>High School:</em> Explore systemic bias and historical examples. <q>How might the way this data was collected affect communities differently?</q>
+            </p>
+        </remark>
+        
+        <exploration xml:id="exploration-bias-detectives">
+            <title>Try This Week: Bias Detectives</title>
+            
+            <p>
+                <em>Time needed:</em> 15 minutes
+            </p>
+            
+            <p>
+                <em>Materials:</em> A simple chart, graph, or claim from your curriculum (textbook, news article appropriate for your grade level, or student-generated data)
+            </p>
+            
+            <p>
+                <em>The Activity:</em> Present any data visualization or claim to your students. Ask them to put on their <q>detective hats</q> and investigate:
+            </p>
+            
+            <p>
+                <em>Detective Questions for Elementary:</em>
+            </p>
+            <p>
+                Who made this chart?
+            </p>
+            <p>
+                Who did they ask?
+            </p>
+            <p>
+                Who didn't they ask?
+            </p>
+            <p>
+                Does this seem fair?
+            </p>
+            
+            <p>
+                <em>Detective Questions for Secondary:</em>
+            </p>
+            <p>
+                What was the source of this data?
+            </p>
+            <p>
+                What was the sample size and method?
+            </p>
+            <p>
+                What might be missing from this picture?
+            </p>
+            <p>
+                Who benefits if people believe this claim?
+            </p>
+            <p>
+                What additional information would help us evaluate this?
+            </p>
+            
+            <p>
+                <em>The goal:</em> Students should become automatically curious about the story behind the data, not just the data itself.
+            </p>
+        </exploration>
+    </section>
+
+    <section xml:id="sec-ethical-responsibility">
+        <title>Understanding Our Responsibility with Data</title>
+        
+        <p>
+            When we collect information about people, we have responsibilities. This is true whether students are surveying classmates about lunch preferences or analyzing historical census data. Building ethical thinking early sets the foundation for responsible data practices throughout life.
+        </p>
+        
+        <exploration xml:id="exploration-privacy-scenarios">
+            <title>Would You Share This Information?</title>
+            
+            <p>
+                Present these scenarios to help students think about privacy and consent:
+            </p>
+            
+            <p>
+                <em>Scenario 1:</em> Your class surveys students about their favorite subjects. Is it okay to share individual student answers with the principal?
+            </p>
+            <p>
+                Discussion point: How can we share what we learned without identifying specific students?
+            </p>
+            
+            <p>
+                <em>Scenario 2:</em> You're collecting data about how students get to school. One student mentions their family doesn't have a car. Should this information be included in your presentation to other classes?
+            </p>
+            <p>
+                Discussion point: How might this information affect that student? What's our responsibility?
+            </p>
+            
+            <p>
+                <em>Scenario 3:</em> Students want to survey classmates about their weekend activities. What questions would be appropriate? What questions might be too personal?
+            </p>
+            <p>
+                Discussion point: How do we decide what's okay to ask about?
+            </p>
+            
+            <p>
+                <em>Key principles to emphasize:</em>
+            </p>
+            <p>
+                Ask permission before collecting personal information
+            </p>
+            <p>
+                Protect individual privacy when sharing results
+            </p>
+            <p>
+                Consider how our questions might affect others
+            </p>
+            <p>
+                Be honest about how information will be used
+            </p>
+        </exploration>
+        
+        <exploration xml:id="exploration-data-agreements">
+            <title>Try This Week: Class Data Agreements</title>
+            
+            <p>
+                <em>Time needed:</em> 20 minutes (one-time setup that lasts all year)
+            </p>
+            
+            <p>
+                Before any data collection activity, work with your students to create a class agreement about how you'll handle information responsibly.
+            </p>
+            
+            <p>
+                <em>Elementary Version - Our Data Promise:</em>
+            </p>
+            <p>
+                We will ask before collecting information about each other
+            </p>
+            <p>
+                We will keep personal information private
+            </p>
+            <p>
+                We will be kind when sharing what we learn
+            </p>
+            <p>
+                We will ask for help if we're unsure about something
+            </p>
+            
+            <p>
+                <em>Secondary Version - Data Ethics Guidelines:</em>
+            </p>
+            <p>
+                Obtain informed consent before data collection
+            </p>
+            <p>
+                Anonymize data when sharing results publicly
+            </p>
+            <p>
+                Consider potential harm or embarrassment to individuals
+            </p>
+            <p>
+                Be transparent about data collection methods and purpose
+            </p>
+            <p>
+                Respect the right to withdraw participation
+            </p>
+            
+            <p>
+                <em>Pro tip:</em> Refer back to this agreement whenever you do data activities. It becomes a natural part of your classroom culture.
+            </p>
+        </exploration>
+    </section>
+
+    <section xml:id="sec-investigative-mindset">
+        <title>Developing an Investigative Mindset</title>
+        
+        <p>
+            The best data scientists aren't necessarily the most technical—they're the most curious and persistent. They ask follow-up questions, notice unexpected patterns, and aren't satisfied with surface-level answers.
+        </p>
+        
+        <exploration xml:id="exploration-question-chains">
+            <title>The Question Chain Game</title>
+            
+            <p>
+                This activity helps students develop the habit of asking follow-up questions—the heart of investigation.
+            </p>
+            
+            <p>
+                <em>How it works:</em> Start with any simple observation or data point from your subject area. Students practice asking <q>But why?</q> and <q>What else could explain this?</q>
+            </p>
+            
+            <p>
+                <em>Example Chain (Science/Elementary):</em>
+            </p>
+            <p>
+                Observation: <q>Most kids in our class like sunny days better than rainy days.</q>
+            </p>
+            <p>
+                Follow-up question: <q>But why do they prefer sunny days?</q>
+            </p>
+            <p>
+                New question: <q>Do kids in places where it rains a lot feel differently?</q>
+            </p>
+            <p>
+                New question: <q>Do adults feel the same way as kids?</q>
+            </p>
+            <p>
+                New question: <q>How do people's daily activities change with weather?</q>
+            </p>
+            
+            <p>
+                <em>Example Chain (Social Studies/Secondary):</em>
+            </p>
+            <p>
+                Data point: <q>Social media usage among teens has increased 40% in the past five years.</q>
+            </p>
+            <p>
+                Follow-up: <q>What factors contributed to this increase?</q>
+            </p>
+            <p>
+                New question: <q>How does usage vary by geographic region or economic status?</q>
+            </p>
+            <p>
+                New question: <q>What were teens doing with that time before social media?</q>
+            </p>
+            <p>
+                New question: <q>How do we measure the effects of this change?</q>
+            </p>
+            
+            <p>
+                Notice how each question opens up new possibilities for investigation? This is the investigative mindset in action.
+            </p>
+        </exploration>
+        
+        <exploration xml:id="exploration-notice-wonder">
+            <title>Try This Week: Notice and Wonder</title>
+            
+            <p>
+                <em>Time needed:</em> 10 minutes, works with any content
+            </p>
+            
+            <p>
+                <em>The Strategy:</em> Whenever you present any information to students (a graph, a historical fact, a scientific observation), pause and ask:
+            </p>
+            
+            <p>
+                <q>What do you notice?</q>
+            </p>
+            <p>
+                <q>What do you wonder?</q>
+            </p>
+            
+            <p>
+                <em>Example with a simple bar graph showing class pet preferences:</em>
+            </p>
+            
+            <p>
+                Students might notice: <q>Dogs got twice as many votes as cats</q> or <q>Nobody chose fish</q>
+            </p>
+            
+            <p>
+                Students might wonder: <q>Would this be the same in other classes?</q> or <q>Do kids who have pets vote differently than kids who don't?</q>
+            </p>
+            
+            <p>
+                <em>The magic:</em> This simple routine develops the habit of looking beyond surface information to ask deeper questions. It works in any subject with any type of information.
+            </p>
+            
+            <p>
+                <em>Bonus:</em> Keep a running list of student <q>wonders</q> throughout the year. These become potential data investigation topics!
+            </p>
+        </exploration>
+    </section>
+
+    <section xml:id="sec-building-agency">
+        <title>Building Student Data Agency</title>
+        
+        <p>
+            Data agency means students see themselves as capable of asking important questions and finding answers through data. They don't just consume information—they create it, question it, and use it to make their world better.
+        </p>
+        
+        <exploration xml:id="exploration-student-choice">
+            <title>From Questions to Action</title>
+            
+            <p>
+                The most powerful data investigations come from students' own questions about issues they care about. Here's how to support student-driven inquiry:
+            </p>
+            
+            <p>
+                <em>Step 1: Start with student concerns</em>
+            </p>
+            <p>
+                <q>What's something about our school/community/world that you're curious about or want to change?</q>
+            </p>
+            
+            <p>
+                <em>Step 2: Help them find the data angle</em>
+            </p>
+            <p>
+                <q>What information would help us understand this better?</q>
+            </p>
+            <p>
+                <q>Who could we ask?</q>
+            </p>
+            <p>
+                <q>What could we count or measure?</q>
+            </p>
+            
+            <p>
+                <em>Step 3: Support investigation planning</em>
+            </p>
+            <p>
+                <q>How will we collect this information fairly?</q>
+            </p>
+            <p>
+                <q>What do we predict we'll find?</q>
+            </p>
+            <p>
+                <q>Who should know about our results?</q>
+            </p>
+            
+            <p>
+                <em>Step 4: Celebrate their expertise</em>
+            </p>
+            <p>
+                <q>What did you discover that adults might not know?</q>
+            </p>
+            <p>
+                <q>How could this information help make decisions?</q>
+            </p>
+            <p>
+                <q>What would you want to investigate next?</q>
+            </p>
+        </exploration>
+        
+        <remark>
+            <title>Real Examples of Student Data Agency</title>
+            <p>
+                <em>Elementary:</em> Third graders survey classmates about lunch preferences and present findings to cafeteria staff, leading to a new menu option.
+            </p>
+            <p>
+                <em>Middle School:</em> Students investigate whether the school's recycling program is working by tracking waste data and propose improvements to the principal.
+            </p>
+            <p>
+                <em>High School:</em> Students analyze local census data to understand demographic changes in their community and present findings at a town hall meeting.
+            </p>
+            <p>
+                The key: Students see their questions as worthy of investigation and their findings as valuable to decision-makers.
+            </p>
+        </remark>
+    </section>
+
+    <section xml:id="sec-putting-it-together">
+        <title>Putting It All Together: Your Data Dispositions Action Plan</title>
+        
+        <p>
+            You've explored the key components of Data Dispositions and Responsibilities. Now let's create a practical plan for building these habits in your classroom.
+        </p>
+        
+        <exploration xml:id="exploration-weekly-routines">
+            <title>Choose Your Weekly Data Dispositions Routine</title>
+            
+            <p>
+                Pick one routine to try consistently for the next month. Small, regular practices build habits more effectively than occasional big activities.
+            </p>
+            
+            <p>
+                <em>Option 1: Monday Question Starters</em>
+            </p>
+            <p>
+                Every Monday, spend 5 minutes helping students generate data questions about your upcoming week's content using the sentence starters from this module.
+            </p>
+            
+            <p>
+                <em>Option 2: Wonder Wednesday</em>
+            </p>
+            <p>
+                Every Wednesday, present one piece of information (graph, fact, image) and ask <q>What do you notice? What do you wonder?</q>
+            </p>
+            
+            <p>
+                <em>Option 3: Bias Detective Friday</em>
+            </p>
+            <p>
+                Every Friday, spend 10 minutes examining a claim or data source with your detective questions from this module.
+            </p>
+            
+            <p>
+                <em>Option 4: Create Your Own</em>
+            </p>
+            <p>
+                Design a routine that fits your teaching style and subject area, incorporating the key elements of curiosity, skepticism, and ethical thinking.
+            </p>
+        </exploration>
+        
+        <remark>
+            <title>Reflection: Your Data Dispositions Growth</title>
+            <p>
+                Before moving to the next module, consider:
+            </p>
+            <p>
+                Which concept from this module feels most important for your students? Which activity are you most excited to try? What questions do you have about building data dispositions in your specific teaching context? How might these practices connect to your existing curriculum standards?
+            </p>
+        </remark>
+    </section>
+
+    <section xml:id="sec-whats-next-module-1">
+        <title>What's Next?</title>
+        
+        <p>
+            Congratulations! You've built the foundation for all data science education. The habits of curiosity, skepticism, and ethical thinking you develop through Data Dispositions and Responsibilities will support everything else your students do with data.
+        </p>
+        
+        <p>
+            In our next module, <em>Creation and Curation</em>, we'll explore how to help students collect, organize, and clean data for investigation. You'll learn practical strategies for everything from student surveys to using existing datasets.
+        </p>
+        
+        <p>
+            Remember: Data dispositions aren't something you teach once and move on. These are ongoing practices that deepen throughout the year and across all subject areas.
+        </p>
+        
+        <p>
+            <em>Estimated time for this module:</em> 45-60 minutes
+        </p>
+        
+        <p>
+            <em>Next up:</em> Module 2 - Creation and Curation (45-60 minutes)
+        </p>
+        
+        <p>
+            <em>Quick wins to try this week:</em> Choose one routine from your action plan and implement it for three days. Notice what questions your students generate!
+        </p>
+    </section>
+
+</chapter>

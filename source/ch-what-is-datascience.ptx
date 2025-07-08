@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-what-is-data-science-education">
+    <title>What is Data Science Education?</title>
+    
+    <introduction>
+        <p>
+            Welcome to your journey into data science education! You might be thinking, <q>Data science sounds complicated and technical—what does this have to do with my classroom?</q> 
+        </p>
+        
+        <p>
+            Here's the thing: data science education isn't about turning your students into statisticians or computer programmers. It's about giving them the tools to think critically about the information-rich world they live in—and it's happening in your classroom already, whether you realize it or not.
+        </p>
+        
+        <p>
+            When your students count votes in a class election, graph the weather for a week, or survey their classmates about favorite books—that's data science. When they question whether a commercial's claim is true or notice patterns in their learning—that's data thinking. 
+        </p>
+        
+        <p>
+            This resource will help you recognize these moments and intentionally build on them, no matter what subject you teach or what grade level you work with.
+        </p>
+    </introduction>
+
+    <section xml:id="sec-data-science-everywhere">
+        <title>Data Science is Everywhere (Including Your Classroom)</title>
+        
+        <p>
+            Before we dive deeper, let's see how data science thinking already connects to different subjects. Each subject area offers natural entry points for developing data skills and thinking habits.
+        </p>
+        
+        <exploration xml:id="exploration-match-concepts">
+            <title>Connect Data Science to Your Subject</title>
+            
+            <p>
+                Below are some data science concepts and classroom scenarios. Think about how each concept might naturally fit in different subject areas. Don't worry about getting it <q>right</q>—there are often multiple correct connections!
+            </p>
+            
+            <p>
+                <em>Consider these examples:</em>
+            </p>
+            
+            <p>
+                <em>Analyzing word frequency in different authors' writing styles</em> - This naturally fits in English Language Arts where students study literature and writing techniques.
+            </p>
+            
+            <p>
+                <em>Using census data to understand community changes over time</em> - This connects well to Social Studies where students explore demographics and historical change.
+            </p>
+            
+            <p>
+                <em>Collecting and analyzing experimental data</em> - This is a natural fit for Science classes where students conduct investigations.
+            </p>
+            
+            <p>
+                <em>Creating graphs and charts to represent information</em> - This works well in Mathematics where students learn about data representation.
+            </p>
+            
+            <p>
+                Notice how data science thinking appears across all subject areas? Each brings its own perspective and natural entry points for data exploration.
+            </p>
+        </exploration>
+        
+        <p>
+            Notice how data science thinking appears across all subject areas? That's because data science education isn't about adding another subject to your already-packed curriculum. It's about enhancing what you're already teaching with intentional attention to:
+        </p>
+        
+        <p>
+            <em>Curiosity:</em> Asking questions that can be explored with information
+        </p>
+        <p>
+            <em>Critical thinking:</em> Questioning sources, recognizing bias, and evaluating claims
+        </p>
+        <p>
+            <em>Problem-solving:</em> Using data to understand and address real-world issues
+        </p>
+        <p>
+            <em>Communication:</em> Sharing findings clearly and persuasively
+        </p>
+    </section>
+
+    <section xml:id="sec-learning-progressions-overview">
+        <title>Your Roadmap: The Data Science Learning Progressions</title>
+        
+        <p>
+            The data science learning progressions you'll be working with are organized into five interconnected strands:
+        </p>
+        
+        <p>
+            <em>1. Data Dispositions and Responsibilities:</em> Developing curiosity, ethics, and critical thinking about data
+        </p>
+        <p>
+            <em>2. Creation and Curation:</em> Collecting, cleaning, and organizing data for analysis
+        </p>
+        <p>
+            <em>3. Analysis and Modeling:</em> Making sense of data through various techniques and tools
+        </p>
+        <p>
+            <em>4. Interpreting Problems and Results:</em> Drawing conclusions and making claims based on evidence
+        </p>
+        <p>
+            <em>5. Visualization and Communication:</em> Sharing data stories effectively with different audiences
+        </p>
+        
+        <p>
+            These strands spiral through grade levels, building sophistication over time. A kindergartener sorting objects by color is developing the same fundamental thinking as a high school student analyzing complex datasets—just at different levels of complexity.
+        </p>
+        
+        <remark>
+            <title>Don't Feel Overwhelmed!</title>
+            <p>
+                You don't need to master all five strands immediately. This resource is designed to help you start where you are and build confidence gradually. Most teachers find that beginning with just one strand—often Data Dispositions and Responsibilities or Visualization and Communication—feels most natural.
+            </p>
+        </remark>
+    </section>
+
+    <section xml:id="sec-choosing-your-path">
+        <title>Choose Your Adventure</title>
+        
+        <p>
+            This resource adapts to where you are in your teaching journey. Before we continue, let's help you choose the pathway that will be most useful for you.
+        </p>
+        
+        <exploration xml:id="exploration-pathway-selection">
+            <title>Choose Your Teaching Context</title>
+            
+            <p>
+                This resource adapts to where you are in your teaching journey. Consider which option best describes your primary teaching context:
+            </p>
+            
+            <p>
+                <em>Elementary (K-5):</em> I work with younger students who learn best through hands-on activities, concrete examples, and visual representations.
+            </p>
+            
+            <p>
+                <em>Secondary (6-12):</em> I work with older students who can handle more abstract concepts and sophisticated tools like spreadsheets or coding platforms.
+            </p>
+            
+            <p>
+                <em>Mixed/Other:</em> I work across grade levels, in specialized settings, or want to see examples from multiple levels.
+            </p>
+            
+            <p>
+                No matter which pathway fits you best, you'll see examples tailored to your context throughout this resource.
+            </p>
+        </exploration>
+        
+        <p>
+            Here's what you can expect based on your teaching context:
+        </p>
+        
+        <p>
+            <em>Elementary teachers</em> will see examples using manipulatives, simple surveys, picture graphs, and activities that connect to students' immediate experiences.
+        </p>
+        <p>
+            <em>Secondary teachers</em> will see examples with spreadsheet tools, data visualization software, and introductory coding that prepare students for college and careers.
+        </p>
+        <p>
+            <em>Mixed/Other</em> will see examples from across grade bands to understand how data science thinking develops over time.
+        </p>
+        
+        <p>
+            Based on your selection, the examples and activities throughout this resource will be tailored to your context. You can always change this later or explore examples from other grade bands—data science thinking is remarkably adaptable!
+        </p>
+    </section>
+
+    <section xml:id="sec-your-first-data-moment">
+        <title>Your First Data Science Moment</title>
+        
+        <p>
+            Let's end this chapter with something you can try in your classroom this week. Here's a simple 15-minute activity that works in any subject and any grade level:
+        </p>
+        
+        <exploration xml:id="exploration-quick-survey">
+            <title>The Quick Class Survey</title>
+            
+            <p>
+                <em>Time needed:</em> 15 minutes
+            </p>
+            
+            <p>
+                <em>Materials:</em> Paper/whiteboard or digital tool of your choice
+            </p>
+            
+            <p>
+                <em>What to do:</em>
+            </p>
+            
+            <p>
+                1. Ask your students a question related to your current topic. Examples: Math: <q>How many pets do you have?</q> Science: <q>What's your favorite weather?</q> Social Studies: <q>How do you get to school?</q> ELA: <q>What's your favorite book genre?</q>
+            </p>
+            
+            <p>
+                2. Collect responses quickly (show of hands, exit ticket, etc.)
+            </p>
+            
+            <p>
+                3. Create a simple visual representation together (tally marks, bar graph, etc.)
+            </p>
+            
+            <p>
+                4. Ask: <q>What do you notice? What surprises you? What questions does this raise?</q>
+            </p>
+            
+            <p>
+                5. Connect back to your lesson: <q>How might this information be useful for...?</q>
+            </p>
+            
+            <p>
+                <em>Why this works:</em> You've just engaged all five data science strands in 15 minutes! Students practiced questioning (Data Dispositions), collecting information (Creation and Curation), organizing it (Analysis), interpreting results (Interpreting Problems and Results), and communicating findings (Visualization and Communication).
+            </p>
+        </exploration>
+        
+        
+        <remark>
+            <title>After You Try It</title>
+            <p>
+                After trying this activity, consider these questions:
+            </p>
+            <p>
+                What did your students notice that surprised you? What questions did they ask that you hadn't thought of? How might you extend this activity next time? What connections do you see to your curriculum standards?
+            </p>
+        </remark>
+    </section>
+
+    <section xml:id="sec-whats-next">
+        <title>What's Next?</title>
+        
+        <p>
+            You've taken the first step! In the following modules, we'll dive deeper into each of the five data science strands, always keeping the focus on practical applications you can use immediately.
+        </p>
+        
+        <p>
+            Remember: you don't need to become a data scientist to teach data science thinking. You just need to be curious, willing to learn alongside your students, and ready to help them develop the critical thinking skills they'll need for the rest of their lives.
+        </p>
+        
+        <p>
+            Ready to continue? In the next module, we'll explore <em>Data Dispositions and Responsibilities</em>—the foundation of all data science thinking.
+        </p>
+        
+        <p>
+            <em>Estimated time to complete this chapter:</em> 30 minutes
+        </p>
+        
+        <p>
+            <em>Next up:</em> Module 1 - Data Dispositions and Responsibilities (45-60 minutes)
+        </p>
+    </section>
+
+</chapter>
