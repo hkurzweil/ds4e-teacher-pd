@@ -298,7 +298,7 @@
         <title>Building Your Confidence: You're Already a Data Science Teacher</title>
         
         <p>
-            Many teachers feel intimidated by data science because they think it requires advanced mathematical or technical knowledge. The truth is, if you're helping students think critically about information, ask questions, and communicate their findings, you're already teaching data science.
+            Many teachers feel intimidated by data science because they think it requires advanced mathematical or technical knowledge. The truth is, if you're helping students think critically about information, ask questions, and communicate their findings, you're already teaching data science and now you're just here to hone that skill and be more purposeful with your intent.
         </p>
         
         <exercise xml:id="recognizing-data-science">
@@ -361,16 +361,6 @@
                     A teacher says: <q>I don't have time to add another subject to my curriculum.</q> How would you respond to this concern?
                 </p>
             </statement>
-            <hint>
-                <p>
-                    Think about whether data science replaces existing content or enhances it.
-                </p>
-            </hint>
-            <answer>
-                <p>
-                    Data science thinking enhances what you're already teaching rather than adding new content.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Data science is a way of thinking that makes existing curriculum richer and more engaging. Instead of adding content, it adds depth to current lessons. A math lesson about graphing becomes more meaningful when students graph data they collected about something they care about. A social studies lesson about community becomes more engaging when students analyze real data about their own community.
@@ -384,19 +374,9 @@
                     Another teacher worries: <q>I'm not strong in math, so I can't teach data science.</q> What's the most accurate response?
                 </p>
             </statement>
-            <hint>
-                <p>
-                    Consider what skills are most important for data science thinking at the foundational level.
-                </p>
-            </hint>
-            <answer>
-                <p>
-                    The most important data science skills are curiosity, critical thinking, and communication.
-                </p>
-            </answer>
             <solution>
                 <p>
-                    While math becomes more important at higher levels, the foundation of data science is about thinking clearly about information. Many crucial data science concepts don't require advanced math: questioning data sources, recognizing patterns, organizing information, and communicating findings clearly. These are skills that teachers use every day.
+                    While math becomes a larger player at higher levels, the foundation of data science is about thinking clearly about information. The most important data science skills are actually curiosity, critical thinking, and communication. Many crucial data science concepts don't require advanced math: questioning data sources, recognizing patterns, organizing information, and communicating findings clearly. These are skills that teachers use every day. If you are hoping to tackle a larger data science project in the upper grades, consider partnering with other subjects to make it even more robust and meaningful for your students!
                 </p>
             </solution>
         </exercise>
@@ -420,7 +400,7 @@
         <video youtube="R4FJDkgT2d4" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 5-minute video preview shows what you'll learn in the upcoming modules.</em>
+            <em>Placeholder for a video from Zarek and/or Kate talking about the learning progressions.</em>
         </p>
         
         <exercise xml:id="implementation-planning">
@@ -429,16 +409,6 @@
                     What's the most important thing to remember as you begin implementing data science education in your classroom?
                 </p>
             </statement>
-            <hint>
-                <p>
-                    Think about sustainable change versus trying to do everything at once.
-                </p>
-            </hint>
-            <answer>
-                <p>
-                    Start small with activities you feel comfortable with and build from there.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Building confidence through small successes creates sustainable change in your teaching practice. You don't need to master all technical tools before starting - simple activities using basic materials work great. The best learning happens when you try things with your students as you learn, so start experimenting right away with activities that feel manageable.
@@ -453,20 +423,12 @@
         </exercise>
         
         <p>
-            Ready to continue? In the next module, we'll explore <em>Data Dispositions and Responsibilities</em>—the foundation of all data science thinking.
-        </p>
-        
-        <p>
-            <em>Estimated time to complete this chapter:</em> 30 minutes
-        </p>
-        
-        <p>
-            <em>Next up:</em> Module 1 - Data Dispositions and Responsibilities (45-60 minutes)
-        </p>
-        
-        <p>
             <em>Quick win to try this week:</em> Implement the Quick Class Survey activity in one of your lessons and notice what questions your students generate!
         </p>
+        <p>
+            Ready to continue? In the next module, we'll explore <em>Data Dispositions and Responsibilities</em>—the foundation of all data science thinking.
+        </p>
+    
     </section>
 
 </chapter>
