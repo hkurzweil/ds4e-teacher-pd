@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Evaluating and Adding New Resources</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Educator Professional Development">
+<meta property="book:author" content="Hannah Kurzweil">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.8.4';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.962d00926ef9460e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.2e7f40e86ae7d163.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Educator Professional Development</span> <span class="subtitle">Onboarding to the Data Science Learning Progressions</span></a></h1>
+<p class="byline">Hannah Kurzweil</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-setting-up-digital-tools.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-building-toolkit.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-putting-it-together-toolkit.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-what-is-data-science-education.html" class="internal"><span class="codenumber">1</span> <span class="title">What is Data Science Education?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-science-everywhere.html" class="internal"><span class="title">Data Science is Everywhere (Including Your Classroom)</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-science-learning-progressions.html" class="internal"><span class="title">Introduction to the Data Science Learning Progressions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-building-confidence.html" class="internal"><span class="title">Building Your Confidence: You’re Already a Data Science Teacher</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next.html" class="internal"><span class="title">What’s Next: Your Learning Journey</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-data-dispositions-responsibilities.html" class="internal"><span class="codenumber">2</span> <span class="title">Module 1: Data Dispositions and Responsibilities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-building-curiosity-and-questioning.html" class="internal"><span class="title">Building Data Curiosity and Questioning Skills</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-recognizing-bias-and-ethical-thinking.html" class="internal"><span class="title">Recognizing Bias and Developing Ethical Data Thinking</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-investigative-mindset-and-agency.html" class="internal"><span class="title">Developing an Investigative Mindset and Student Data Agency</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together.html" class="internal"><span class="title">Putting It All Together: Your Data Dispositions Action Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-1.html" class="internal"><span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-creation-and-curation.html" class="internal"><span class="codenumber">3</span> <span class="title">Module 2: Getting Data Ready - Creation and Curation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-from-questions-to-data-collection.html" class="internal"><span class="title">From Questions to Data Collection: Designing Simple Investigations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-collection-in-practice.html" class="internal"><span class="title">Data Collection in Practice: Student Surveys and Observations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-organizing-and-cleaning-data.html" class="internal"><span class="title">Organizing and Cleaning Data: From Messy to Meaningful</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-working-with-existing-datasets.html" class="internal"><span class="title">Working with Existing Datasets: Finding and Using Secondary Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-data-complexity-and-quality.html" class="internal"><span class="title">Understanding Data Complexity and Quality</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together-creation-curation.html" class="internal"><span class="title">Putting It All Together: Your Data Creation and Curation Action Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-2.html" class="internal"><span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-analysis-and-modeling.html" class="internal"><span class="codenumber">4</span> <span class="title">Module 3: Making Sense of Data - Analysis and Modeling</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-making-sense-basic-analysis.html" class="internal"><span class="title">Making Sense of Data: Basic Analysis and Patterns</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-understanding-variability.html" class="internal"><span class="title">Understanding Variability and Distributions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-digital-tools-and-models.html" class="internal"><span class="title">Introduction to Digital Tools and Simple Models</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together-analysis.html" class="internal"><span class="title">Putting It All Together: Your Analysis Action Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-3.html" class="internal"><span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-interpreting-problems-results.html" class="internal"><span class="codenumber">5</span> <span class="title">Module 4: Drawing Conclusions - Interpreting Problems and Results</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-drawing-conclusions-making-claims.html" class="internal"><span class="title">Drawing Conclusions and Making Evidence-Based Claims</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-understanding-uncertainty-limitations.html" class="internal"><span class="title">Understanding Uncertainty and Limitations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-avoiding-interpretation-pitfalls.html" class="internal"><span class="title">Avoiding Common Interpretation Pitfalls</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together-interpretation.html" class="internal"><span class="title">Putting It All Together: Your Interpretation Action Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-4.html" class="internal"><span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-visualization-communication.html" class="internal"><span class="codenumber">6</span> <span class="title">Module 5: Telling the Story - Visualization and Communication</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-creating-clear-visualizations.html" class="internal"><span class="title">Creating Clear and Effective Visualizations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-telling-stories-with-data.html" class="internal"><span class="title">Telling Stories with Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-communicating-different-audiences.html" class="internal"><span class="title">Communicating with Different Audiences</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together-communication.html" class="internal"><span class="title">Putting It All Together: Your Communication Action Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-5.html" class="internal"><span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-planning-first-lesson.html" class="internal"><span class="codenumber">7</span> <span class="title">Module 6: Planning Your First Data Science Lesson</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-lesson-design-framework.html" class="internal"><span class="title">The Data Science Lesson Design Framework</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-step-by-step-lesson-building.html" class="internal"><span class="title">Building Your Lesson Step-by-Step</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-avoiding-common-pitfalls.html" class="internal"><span class="title">Avoiding Common Pitfalls</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-completing-your-lesson.html" class="internal"><span class="title">Completing and Testing Your Lesson Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-implementation-and-reflection.html" class="internal"><span class="title">Implementation and Post-Lesson Reflection</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-6.html" class="internal"><span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-building-toolkit.html" class="internal"><span class="codenumber">8</span> <span class="title">Module 7: Building Your Data Science Toolkit</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-choosing-right-tools.html" class="internal"><span class="title">Choosing the Right Tools for Your Context</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-finding-vetting-datasets.html" class="internal"><span class="title">Finding and Vetting Quality Datasets</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-setting-up-digital-tools.html" class="internal"><span class="title">Setting Up Your Digital Tools</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-evaluating-new-resources.html" class="internal"><span class="title">Evaluating and Adding New Resources</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together-toolkit.html" class="internal"><span class="title">Putting It All Together: Your Personal Toolkit Action Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-whats-next-module-7.html" class="internal"><span class="title">What’s Next?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-assessment-growth.html" class="internal"><span class="codenumber">9</span> <span class="title">Module 8: Assessment and Growth</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-recognizing-data-science-learning.html" class="internal"><span class="title">What Does Data Science Learning Look Like?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-assessment-strategies.html" class="internal"><span class="title">Simple and Effective Assessment Strategies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-designing-rubrics.html" class="internal"><span class="title">Designing Assessment Rubrics for Your Context</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-planning-continued-growth.html" class="internal"><span class="title">Planning Your Continued Growth as a Data Science Educator</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-putting-it-together-growth.html" class="internal"><span class="title">Putting It All Together: Your Personal Growth Plan</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conclusion-celebration.html" class="internal"><span class="title">Conclusion and Celebration</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-evaluating-new-resources"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Evaluating and Adding New Resources</span>
+</h2>
+<div class="para" id="sec-evaluating-new-resources-2">The data science education landscape changes rapidly, with new tools, datasets, and resources appearing regularly. Having a systematic approach to evaluating additions to your toolkit helps you stay current without getting overwhelmed by every new option.<div class="autopermalink" data-description="Paragraph"><a href="#sec-evaluating-new-resources-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exploration project-like" id="exploration-resource-evaluation"><h3 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">53</span><span class="period">.</span><span class="space"> </span><span class="title">Resource Evaluation Framework.</span>
+</h3>
+<div class="para" id="exploration-resource-evaluation-2">Use this framework to decide whether new resources are worth adding to your toolkit:<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-3">
+<em class="emphasis">Initial Screening Questions:</em><div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-4">• Does this fill a gap in my current toolkit?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-5">• Is it appropriate for my students’ grade level and tech skills?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-6">• Can I realistically learn to use this effectively?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-7">• Is it reliable and likely to be available long-term?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-8">
+<em class="emphasis">Deeper Evaluation Criteria:</em><div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-9">• <em class="emphasis">Ease of Use:</em> Can students focus on data thinking rather than tool mechanics?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-10">• <em class="emphasis">Educational Value:</em> Does it enhance learning in ways my current tools don’t?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-11">• <em class="emphasis">Technical Requirements:</em> Does it work reliably in my classroom environment?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-12">• <em class="emphasis">Support and Documentation:</em> Are there tutorials, help resources, or community support?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-13">• <em class="emphasis">Cost and Sustainability:</em> Is it free, or worth the cost for long-term use?<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-14">
+<em class="emphasis">Trial Process:</em><div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-15">1. Test the resource yourself with sample data<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-16">2. Try it with a small group of students or volunteer colleagues<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-17">3. Compare it directly to your current tools for similar tasks<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-18">4. Assess whether the learning curve is worth the benefits<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-resource-evaluation-19">5. Make a decision within a reasonable timeframe (don’t endlessly evaluate)<div class="autopermalink" data-description="Paragraph"><a href="#exploration-resource-evaluation-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exploration 53: Resource Evaluation Framework"><a href="#exploration-resource-evaluation" title="Copy heading and permalink for Exploration 53: Resource Evaluation Framework" aria-label="Copy heading and permalink for Exploration 53: Resource Evaluation Framework">🔗</a></div></article><details id="resource-overwhelm" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">101</span><span class="period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="resource-overwhelm-1-1">You discover five new data science tools that all look interesting and potentially useful. What’s the best approach to evaluating them?<div class="autopermalink" data-description="Paragraph"><a href="#resource-overwhelm-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="resource-overwhelm-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="resource-overwhelm-2-1">Think about sustainable professional development and avoiding tool overload.<div class="autopermalink" data-description="Paragraph"><a href="#resource-overwhelm-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 101.1"><a href="#resource-overwhelm-2" title="Copy heading and permalink for Hint 101.1" aria-label="Copy heading and permalink for Hint 101.1">🔗</a></div>
+</div></details><details id="resource-overwhelm-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="resource-overwhelm-3-1">Choose one tool to evaluate thoroughly rather than trying to learn about all five superficially.<div class="autopermalink" data-description="Paragraph"><a href="#resource-overwhelm-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 101.1"><a href="#resource-overwhelm-3" title="Copy heading and permalink for Answer 101.1" aria-label="Copy heading and permalink for Answer 101.1">🔗</a></div>
+</div></details><details id="resource-overwhelm-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="resource-overwhelm-4-1">Focus on deep evaluation of one tool at a time. Bookmark the others for future consideration, but resist the urge to try everything immediately. It’s better to master one new tool per semester and use it effectively than to constantly switch between half-learned tools. Quality over quantity in your toolkit.<div class="autopermalink" data-description="Paragraph"><a href="#resource-overwhelm-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 101.1"><a href="#resource-overwhelm-4" title="Copy heading and permalink for Solution 101.1" aria-label="Copy heading and permalink for Solution 101.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 101"><a href="#resource-overwhelm" title="Copy heading and permalink for Checkpoint 101" aria-label="Copy heading and permalink for Checkpoint 101">🔗</a></div></article></details><article class="exploration project-like" id="exploration-staying-current"><h3 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">54</span><span class="period">.</span><span class="space"> </span><span class="title">Staying Current Without Getting Overwhelmed.</span>
+</h3>
+<div class="para" id="exploration-staying-current-2">Strategies for keeping up with new developments in educational data science:<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-3">
+<em class="emphasis">Efficient Information Sources:</em><div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-4">• Follow 2-3 trusted educational technology blogs or newsletters<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-5">• Join one active online community (Facebook group, Reddit, Discord)<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-6">• Connect with other data science educators in your district or region<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-7">• Attend one virtual or in-person conference per year<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-8">
+<em class="emphasis">Time Management Strategies:</em><div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-9">• Set aside 30 minutes monthly for exploring new resources<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-10">• Create a "someday maybe" list for interesting tools to investigate later<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-11">• Focus on resources that solve current problems rather than just interesting ones<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-12">• Partner with colleagues to share evaluation workload<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-13">
+<em class="emphasis">Implementation Boundaries:</em><div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-14">• Limit yourself to learning one new major tool per semester<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-15">• Only add resources that clearly improve on what you’re currently using<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-16">• Be willing to remove tools that you’re not using consistently<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exploration-staying-current-17">• Remember: good enough is often better than perfect<div class="autopermalink" data-description="Paragraph"><a href="#exploration-staying-current-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exploration 54: Staying Current Without Getting Overwhelmed"><a href="#exploration-staying-current" title="Copy heading and permalink for Exploration 54: Staying Current Without Getting Overwhelmed" aria-label="Copy heading and permalink for Exploration 54: Staying Current Without Getting Overwhelmed">🔗</a></div></article><details id="toolkit-maintenance" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">102</span><span class="period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="toolkit-maintenance-1-1">How often should you review and update your data science toolkit?<div class="autopermalink" data-description="Paragraph"><a href="#toolkit-maintenance-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="toolkit-maintenance-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="toolkit-maintenance-2-1">Think about balancing staying current with maintaining stability in your teaching practice.<div class="autopermalink" data-description="Paragraph"><a href="#toolkit-maintenance-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 102.1"><a href="#toolkit-maintenance-2" title="Copy heading and permalink for Hint 102.1" aria-label="Copy heading and permalink for Hint 102.1">🔗</a></div>
+</div></details><details id="toolkit-maintenance-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="toolkit-maintenance-3-1">Review annually, with minor updates each semester as needed.<div class="autopermalink" data-description="Paragraph"><a href="#toolkit-maintenance-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 102.1"><a href="#toolkit-maintenance-3" title="Copy heading and permalink for Answer 102.1" aria-label="Copy heading and permalink for Answer 102.1">🔗</a></div>
+</div></details><details id="toolkit-maintenance-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="toolkit-maintenance-4-1">Annual reviews help you assess what’s working well and what needs improvement, while semester check-ins allow for minor adjustments. This schedule prevents constant tool switching while ensuring your toolkit stays relevant and effective. Major changes should be rare—stability in your toolkit allows you to focus on improving your teaching rather than learning new systems.<div class="autopermalink" data-description="Paragraph"><a href="#toolkit-maintenance-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 102.1"><a href="#toolkit-maintenance-4" title="Copy heading and permalink for Solution 102.1" aria-label="Copy heading and permalink for Solution 102.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 102"><a href="#toolkit-maintenance" title="Copy heading and permalink for Checkpoint 102" aria-label="Copy heading and permalink for Checkpoint 102">🔗</a></div></article></details><div class="autopermalink" data-description="Section: Evaluating and Adding New Resources"><a href="#sec-evaluating-new-resources" title="Copy heading and permalink for Section: Evaluating and Adding New Resources" aria-label="Copy heading and permalink for Section: Evaluating and Adding New Resources">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-setting-up-digital-tools.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-putting-it-together-toolkit.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
