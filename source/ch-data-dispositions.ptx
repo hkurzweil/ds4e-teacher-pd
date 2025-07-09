@@ -129,12 +129,6 @@
             </p>
         </exploration>
         
-        <video youtube="LFtS7CjhDJc" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>Watch this 4-minute classroom example of a teacher using question starters with 3rd graders.</em>
-        </p>
-        
         <exercise xml:id="planning-question-starters">
             <p>
                 Choose a lesson you're planning this week. Write down two question starters that would fit naturally into that lesson and help students generate data questions.
@@ -200,10 +194,10 @@
             One of the most important data dispositions is healthy skepticism. Not all data tells the complete story, and students need to develop the habit of asking: <q>What might this data be missing? Who collected this and why?</q> Additionally, when we collect information about people, we have responsibilities.
         </p>
         
-        <video youtube="9mPJx-8MCUQ" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="gil5Ia2ozbs" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 5-minute video explains bias in data collection in kid-friendly terms.</em>
+            <em>This quick video explains bias in data collection in kid-friendly terms.</em>
         </p>
         
         <p>
@@ -237,11 +231,6 @@
                     Think about how the location of data collection might influence the responses.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Jamie probably surveyed students near the basketball court, creating location bias.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Location bias is the biggest issue here. If Jamie surveyed students who were playing basketball or near the basketball court, those students would be much more likely to say basketball is their favorite activity. This shows how WHERE we collect data can significantly influence the results, even with good intentions.
@@ -260,11 +249,6 @@
                     Consider ways to make sure all students have an equal chance to participate.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Randomly select students from class lists to survey, rather than surveying based on location.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Random selection from class lists would give every student an equal chance to participate, regardless of which playground activity they prefer. Jamie could also survey at different times and locations, but random selection is the most systematic approach to reducing bias.
@@ -311,11 +295,6 @@
                     Think about whether bias is intentional or unintentional, and whether it can be reduced.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Bias is common and often unintentional, but can be reduced by thinking carefully about how data is collected.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Understanding that bias is normal and usually unintentional helps students approach data with healthy skepticism rather than cynicism. Most data collectors aren't trying to mislead—they're just limited by practical constraints. Teaching students to ask good questions about data sources and methods helps them become better consumers and creators of information.
@@ -362,11 +341,6 @@
                     Consider how to share useful information while protecting individual privacy.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Share overall patterns without identifying individual responses.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The goal is to protect individual privacy while still sharing useful information about transportation patterns. You could say <q>Most students ride the bus, some walk, and a few get rides</q> without identifying specific students or their family situations. This teaches students to think about the impact of data sharing on real people.
@@ -432,10 +406,10 @@
             The best data scientists aren't necessarily the most technical—they're the most curious and persistent. They ask follow-up questions, notice unexpected patterns, and aren't satisfied with surface-level answers. They also see themselves as capable of asking important questions and finding answers through data.
         </p>
         
-        <video youtube="Ep8KvnUGJ8w" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="f15XgCLaOBY" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 7-minute video shows students developing investigative thinking through a real classroom data project.</em>
+            <em>This video shows practical ways to guide students through the process of making observations, asking questions and answering those questions with data.</em>
         </p>
         
         <exploration xml:id="exploration-question-chains">
@@ -473,11 +447,6 @@
                     Think about questions that could lead to further data investigation and comparison.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    <q>How does homework time vary by subject or grade level?</q> or similar investigative questions.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Good follow-up questions could include: <q>How does homework time vary by subject?</q>, <q>What factors might explain differences between students?</q>, or <q>How has this changed over time?</q> The key is asking questions that could lead to further data investigation rather than making judgments or stating personal experiences.
@@ -524,14 +493,9 @@
                     Consider how to maintain their ownership while building their skills.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Help them transform their interest into investigable questions.
-                </p>
-            </answer>
             <solution>
                 <p>
-                    This maintains their ownership and motivation while building their skills in formulating data questions. Rather than providing pre-existing datasets or changing their topic to something easier, we honor their curiosity and help them develop the tools to investigate what they care about. This builds both skills and confidence.
+                    Help them transform their interest into investigable questions. This maintains their ownership and motivation while building their skills in formulating data questions. Rather than providing pre-existing datasets or changing their topic to something easier, we honor their curiosity and help them develop the tools to investigate what they care about. This builds both skills and confidence.
                 </p>
             </solution>
         </exercise>
@@ -643,12 +607,6 @@
                 </p>
             </conclusion>
         </exercise>
-        
-        <video youtube="F4cOPU0aJoI" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>Watch this 3-minute video to see teachers sharing their experiences implementing data dispositions routines.</em>
-        </p>
         
         <exercise xml:id="reflection-before-next-module">
             <p>
