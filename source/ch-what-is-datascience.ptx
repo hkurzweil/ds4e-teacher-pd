@@ -17,13 +17,13 @@
         </p>
         
         <p>
-            This resource will help you recognize these moments and intentionally build on them, no matter what subject you teach or what grade level you work with.
+            This resource will help you recognize these moments and intentionally build on them, no matter what subject you teach or what grade level you work with. In this short video below, you'll hear Professor Hollylynne Lee of North Calolina State University discuss exactly how students are inundated with data everyday and why it's critical we take our roles in shaping those interactions seriously. 
         </p>
         
-        <video youtube="hVimVzgtD6w" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="Penf5yBCX0c" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 4-minute video to see data science education in action across different grade levels and subjects.</em>
+            <em>Watch this 2-minute video from Professor Hollylynne Lee as she explains how students are surrounded by data every day and often use it to inform their decisions without fully understanding where it came from or how it was compiled, which is a major reason why data science education is so important.</em>
         </p>
     </introduction>
 
@@ -31,7 +31,7 @@
         <title>Data Science is Everywhere (Including Your Classroom)</title>
         
         <p>
-            Before we dive deeper, let's see how data science thinking already connects to different subjects. Each subject area offers natural entry points for developing data skills and thinking habits.
+            Now, before we dive deeper, let's see how data science thinking already connects to different subjects. Each subject area offers natural entry points for developing data skills and thinking habits.
         </p>
         
         <exercise xml:id="subject-connections-reflection">
@@ -45,11 +45,6 @@
                     Think about where students would naturally study authors, writing techniques, and literary analysis.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    English Language Arts - this connects directly to literary analysis and understanding writing style differences.
-                </p>
-            </answer>
             <solution>
                 <p>
                     This fits best in English Language Arts because students are analyzing literature and writing techniques. While math skills are involved in counting and comparing, the primary focus is on understanding how different authors use language. This shows how data science enhances rather than replaces traditional ELA instruction.
@@ -68,11 +63,6 @@
                     Consider which subject focuses on communities, demographics, and change over time.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Social Studies - this investigation focuses on understanding communities, demographics, and historical change.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Social Studies provides the best context because this investigation is fundamentally about understanding society and how communities change over time. While students will use math skills to analyze the data and might write about their findings, the core learning objectives align with social studies standards about demographics, community development, and historical change.
@@ -84,7 +74,7 @@
             <title>Identifying Data Science Across Subjects</title>
             <introduction>
                 <p>
-                    Let's practice recognizing how data science thinking appears naturally in different subjects.
+                    Let's practice recognizing how data science thinking appears naturally in different subjects, specifically what you teach.
                 </p>
             </introduction>
             <task>
@@ -95,7 +85,7 @@
                 </statement>
                 <hint>
                     <p>
-                        Consider activities like surveying opinions, counting occurrences, comparing quantities, or tracking changes over time.
+                        Consider activities like surveying opinions of the class, counting occurrences, comparing quantities, or tracking changes over time.
                     </p>
                 </hint>
             </task>
@@ -107,7 +97,7 @@
                 </statement>
                 <hint>
                     <p>
-                        Think about follow-up questions like <q>What patterns do you notice?</q> or <q>What surprises you?</q>
+                        Think about follow-up questions to really get them thinking more deeply, such as <q>What patterns do you notice?</q> or <q>What surprises you?</q>
                     </p>
                 </hint>
             </task>
@@ -119,17 +109,42 @@
         </exercise>
         
         <p>
-            Data science thinking appears across all subject areas because it's about enhancing what you're already teaching with intentional attention to <em>curiosity</em> (asking questions that can be explored with information), <em>critical thinking</em> (questioning sources, recognizing bias, and evaluating claims), <em>problem-solving</em> (using data to understand and address real-world issues), and <em>communication</em> (sharing findings clearly and persuasively).
+            Data science thinking appears across all subject areas because it's about enhancing what you're already teaching with intentional attention to <em>curiosity</em> (asking questions that can be explored with information), <em>critical thinking</em> (questioning sources, recognizing bias, and evaluating claims), <em>problem-solving</em> (using data to understand and address real-world issues), and <em>communication</em> (sharing findings clearly and persuasively). The video below from the Alan Turing Institute features Melissa Terras where she discusses how humanities and data science can work together to address societal issues using examples from her work on handwriting recognition, 3D scanning, and multispectral imaging. While this is certainly beyond the scope of anyone just beginning their data science journey, it certainly highlights how data science can engage students to analyze and solve real world problems. 
         </p>
         
-        <video youtube="Zhxslr03VXs" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="4yYytLUViI4" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 6-minute video shows how data science naturally fits into everyday teaching across subjects.</em>
+            <em>This lecture from Dr. Melissa Terras shows how data science should be used to enhance insight across subjects.</em>
+        </p>
+    </section>
+
+        <section xml:id="sec-data-science-learning-progressions">
+        <title>Introduction to the Data Science Learning Progressions</title>
+        <p>
+           If you're a math teacher, you're probably already familiar with how the Common Core State Standards describe mathematical progressions—showing how students develop understanding of concepts like number sense or algebraic thinking over multiple grade levels. Science teachers know this approach through the Next Generation Science Standards (NGSS), which map how scientific thinking develops from kindergarten through high school. Social studies educators have seen similar frameworks in the C3 Framework, which outlines how civic reasoning and inquiry skills build over time.
+        </p>
+        <p>
+        The data science learning progressions work exactly the same way, but with one powerful difference: they're designed to span across all subject areas. Just as the Common Core shows how mathematical reasoning develops, or NGSS shows how scientific thinking evolves, these data science progressions map out how students develop the ability to ask questions about data, think critically about evidence, and communicate findings—skills that are valuable whether students are analyzing historical census data, conducting science experiments, interpreting literature, or solving mathematical problems.
+        </p>
+        <p>
+        Learning progressions are research-based frameworks that map out how students typically develop understanding and skills in a particular area over time. Unlike traditional scope-and-sequence documents that simply list what to teach when, learning progressions describe how student thinking actually evolves. They capture the messy, non-linear reality of how children learn—showing that students don't simply move from "not knowing" to "knowing," but rather develop increasingly sophisticated ways of thinking about concepts over months and years.
+        </p>
+        <p>
+        What makes the data science progressions particularly powerful for your implementation is that they focus on thinking skills rather than specific tools or procedures. Instead of prescribing that students must use particular software or memorize statistical formulas, they describe the reasoning patterns that make someone an effective data scientist: asking good questions, thinking critically about evidence, recognizing bias, communicating findings clearly, and using data responsibly. A second-grader sorting objects by color and a tenth-grader analyzing climate data are both developing the same fundamental data science concepts—just at different levels of complexity.
+        </p>
+        <p>
+        As you begin implementing data science education, these progressions serve as both a planning tool and an assessment guide—just like the standards frameworks you already use. They help you understand what data science thinking looks like at your grade level, identify natural connections to your existing curriculum, and recognize growth in your students even when it doesn't look like traditional academic progress. Most importantly, they give you confidence that you're building genuine data science capabilities in your students, not just teaching them to follow procedures or use specific tools.
+        </p>
+        <p>
+        The progressions also provide a common language for talking about data science education with colleagues, administrators, and parents. When someone asks what students are actually learning in data science, you can point to specific thinking skills and show how they connect to other academic areas and real-world applications—just as you might reference Common Core mathematical practices or NGSS science and engineering practices.
+        </p>
+        <p>
+        Remember, these progressions are meant to support your professional judgment, not replace it. They provide a framework for understanding student development, but you know your students best and can adapt the progressions to meet their specific needs and interests.
         </p>
 
         <p>
-            The data science learning progressions you'll be working with are organized into five interconnected strands. You can explore the complete progressions at <url href="https://www.figma.com/proto/1hNgIjRf0IcEQqQrUDrpnU/DS4E-%7C-Learning-Progressions-site-%E2%80%A2%C2%A0Wires-3.0?page-id=12204%3A64543&amp;node-id=12204-66417&amp;p=f&amp;viewport=-3176%2C921%2C0.21&amp;t=JDyNMAtwxxElnv0k-1&amp;scaling=scale-down&amp;content-scaling=fixed&amp;starting-point-node-id=12204%3A66417" visual="Data Science Learning Progressions">the learning progressions website</url>.
+            The data science learning progressions you'll be working with are organized into five interconnected strands. You can explore the complete progressions at <url href="https://www.datasciencelearning.org" visual="Data Science Learning Progressions">the learning progressions website</url>.
         </p>
         
         <p>
@@ -163,11 +178,6 @@
                     Think about whether these strands should be taught separately or together, and how they build over time.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    The strands are interconnected and should be woven together, building sophistication as students progress through grade levels.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The five strands work together in every data science activity. When students do a simple class survey, they're practicing curiosity and ethics (Strand 1), collecting and organizing information (Strand 2), making sense of patterns (Strand 3), drawing conclusions (Strand 4), and sharing results (Strand 5). The complexity increases over time, but even kindergarteners can engage with all five strands in age-appropriate ways.
@@ -252,10 +262,10 @@
             </p>
         </exploration>
         
-        <video youtube="qOI7hS14dHw" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="hlPul6UZe3U" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 3-minute example of a teacher implementing a quick class survey with 4th graders.</em>
+            <em>Watch this 4-minute example of a teacher implementing a quick class survey with 4th graders.</em>
         </p>
         
         <exercise xml:id="survey-reflection">
@@ -269,14 +279,9 @@
                     Consider which step helps students move beyond just collecting data to actually thinking about what it means.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Asking follow-up questions like <q>What do you notice?</q> and <q>What surprises you?</q>
-                </p>
-            </answer>
             <solution>
                 <p>
-                    The follow-up questions are crucial because they develop investigative thinking skills—the heart of data science. While technology and sample size can be important, this activity is about developing thinking habits. The questions help students move from passive data collection to active investigation and analysis.
+                    The follow-up questions like <q>What do you notice?</q> and <q>What surprises you?</q> are crucial because they develop investigative thinking skills—the heart of data science. While technology and sample size can be important, this activity is about developing thinking habits. The questions help students move from passive data collection to active investigation and analysis.
                 </p>
             </solution>
         </exercise>
