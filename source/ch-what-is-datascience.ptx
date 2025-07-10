@@ -4,11 +4,12 @@
     <title>What is Data Science Education?</title>
     
     <introduction>
-        <video youtube="DmsHeU1v9_k" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Cheers to the start of your data science in education journey! Please watch this video for an overview of what data science even is and why it's so important.</em>
+            Cheers to the start of your data science in education journey! Please watch this video for an overview of what data science even is and why it's so important.
         </p>
+
+        <video youtube="DmsHeU1v9_k" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
             Welcome to your journey into data science education! You might be thinking, <q>Data science sounds complicated and technical—what does this have to do with my classroom?</q> 
