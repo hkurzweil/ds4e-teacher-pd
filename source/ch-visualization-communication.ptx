@@ -12,19 +12,16 @@
             Visualization and Communication isn't about creating fancy graphics or impressive presentations. It's about developing the empathy and clarity to think, <q>How can I help others understand what this data means and why it matters to them?</q> The best data science in the world is useless if it can't be understood and applied by the people who need it.
         </p>
         
-        <video youtube="H9fJ3kT2-8s" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="xekEXM0Vonc" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 6-minute video showing students sharing their data findings across different grade levels and contexts.</em>
+            <em>Data storytelling is an extremely important piece of the data process.</em>
         </p>
         
         <p>
             By the end of this module, you'll have practical strategies to help your students create clear and appropriate visualizations, craft compelling data stories, adapt their communication for different audiences, and use their findings to inform decisions and advocate for change.
         </p>
-        
-        <p>
-            <em>Estimated time:</em> 45-60 minutes
-        </p>
+
     </introduction>
 
     <section xml:id="sec-creating-clear-visualizations">
@@ -45,11 +42,6 @@
                     Think about what type of comparison they want to make and what would be easiest for their audience to understand.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    A bar graph, because it makes it easy to compare categories both within and across grade levels.
-                </p>
-            </answer>
             <solution>
                 <p>
                     A bar graph works best because it allows clear comparison of categorical data (foods) across groups (grade levels). Line graphs are for showing change over time, and pie charts work best for showing parts of a whole within a single group. The key is matching the visualization type to the story you want to tell.
@@ -104,11 +96,6 @@
                     Think about the foundation skill that enables all other interpretation abilities.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Understanding what the visualization is actually showing—what's being measured, compared, or represented.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Before students can interpret patterns or draw conclusions, they need to understand what they're looking at: What do the axes represent? What does each bar, line, or point mean? What units are being used? This foundational graphical literacy prevents misinterpretation and enables meaningful analysis.
@@ -147,12 +134,7 @@
                 <em>Teaching Strategy:</em> Show students examples of misleading graphs from media or create <q>before and after</q> versions where students fix misleading elements to make visualizations more honest.
             </p>
         </exploration>
-        
-        <video youtube="K8mR4Tb2-5Q" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>This 5-minute video shows students learning to create and critique visualizations using simple tools.</em>
-        </p>
+
         
         <exercise xml:id="representational-fluency">
             <statement>
@@ -165,11 +147,6 @@
                     Think about showing the same data in multiple ways to see what different representations reveal.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Create different types of visualizations (line graph, histogram, box plot) and compare what each shows about the temperature data.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students could create: (1) A line graph showing temperature change over time, (2) A histogram showing distribution of temperatures, (3) A box plot showing median and range, (4) A bar chart comparing average temperatures by week. Each representation reveals different aspects—trends, variability, typical values—helping students understand that different visualizations serve different purposes.
@@ -196,11 +173,6 @@
                     Think about what makes any story engaging and meaningful to an audience.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    A clear connection between the data and something the audience cares about.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The best data stories connect findings to things that matter to the audience—their experiences, concerns, decisions, or curiosity. Without this connection, data remains abstract numbers. Students should learn to start with <q>Why should my audience care about this?</q> and build their story around that connection.
@@ -255,11 +227,6 @@
                     Think about what each audience cares about and what actions they can take.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    For classmates: Focus on health impacts and personal choices. For administrators: Focus on policy implications and potential solutions.
-                </p>
-            </answer>
             <solution>
                 <p>
                     For classmates: <q>Our lunch data shows why you might want to drink more water and choose fruits over chips—the sodium levels are really high.</q> For administrators: <q>Our analysis reveals a systemic issue with sodium levels that could be addressed through vendor requirements and menu modifications.</q> Same data, but framed around what each audience can control and cares about.
@@ -305,11 +272,6 @@
             </conclusion>
         </exercise>
         
-        <video youtube="N7hR8wK2-4M" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>This 4-minute video shows elementary students presenting their data findings to different audiences.</em>
-        </p>
         
         <exploration xml:id="exploration-advocacy-with-data">
             <title>Using Data for Positive Change</title>
@@ -370,11 +332,6 @@
                     Think about what each audience already knows, what they care about, and what language will be most effective.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    (a) Simple language, relatable examples; (b) Focus on implications for home support; (c) Connect to teaching strategies and research.
-                </p>
-            </answer>
             <solution>
                 <p>
                     For younger students: Use simple graphs and language like <q>We found that kids who spend about 1-2 hours on homework usually do better on tests, but more than 3 hours doesn't seem to help more.</q> For parents: <q>Our data suggests optimal homework time is 1-2 hours, with diminishing returns beyond that—quality may matter more than quantity.</q> For teachers: <q>Our analysis reveals a curvilinear relationship between homework duration and assessment performance, suggesting efficiency and targeted practice may be more important than total time invested.</q>
@@ -442,11 +399,6 @@
                     Think about different ways people might experience or interact with visual information.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Color choices for colorblind accessibility, clear text descriptions, appropriate text size, and multiple ways to access the information.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students should consider: (1) Using colors that work for colorblind viewers, (2) Providing text descriptions of visual elements, (3) Using large enough fonts, (4) Avoiding relying solely on color to convey information, (5) Providing data in multiple formats when possible. This teaches inclusive design thinking from an early age.
@@ -497,12 +449,6 @@
             </p>
         </exploration>
         
-        <video youtube="P3K7mN4-2Rs" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>This 5-minute video shows students adapting their data presentations for different audiences and contexts.</em>
-        </p>
-        
         <exercise xml:id="plain-language-practice">
             <statement>
                 <p>
@@ -514,11 +460,6 @@
                     Think about how to convey the same meaning using everyday words that any audience could understand.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    <q>We found that students who eat breakfast tend to do better on tests and assignments.</q>
-                </p>
-            </answer>
             <solution>
                 <p>
                     Plain language keeps the essential meaning while using familiar words: <q>analysis revealed</q> becomes <q>we found,</q> <q>positive correlation</q> becomes <q>tend to go together,</q> and <q>academic performance metrics</q> becomes <q>tests and assignments.</q> Students should practice expressing complex findings in ways that anyone can understand.
@@ -569,11 +510,6 @@
                     Think about the fundamental purpose of all communication with data.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    The goal is always to serve the audience's need to understand and use the information, not to impress them with complexity.
-                </p>
-            </answer>
             <solution>
                 <p>
                     All effective data communication starts with empathy for the audience. Students should learn to ask: <q>What does my audience need to know? How can I help them understand? What will make this meaningful to them?</q> rather than <q>How can I show everything I learned?</q> This audience-first mindset leads to clearer, more impactful communication.
@@ -615,10 +551,10 @@
             </conclusion>
         </exercise>
         
-        <video youtube="L8nK4fR7-6Q" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="r5_34YnCmMY" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 4-minute video of teachers sharing their favorite strategies for building students' data communication skills.</em>
+            <em>The Harvard Business Review shows us how to tell stories with data in three easy steps.</em>
         </p>
         
         <exercise xml:id="reflection-communication">
@@ -641,14 +577,6 @@
         
         <p>
             Remember: Data science education is ultimately about empowering students to understand and improve their world through thoughtful analysis of information. Every skill you've learned contributes to that larger goal.
-        </p>
-        
-        <p>
-            <em>Estimated time for this module:</em> 45-60 minutes
-        </p>
-        
-        <p>
-            <em>Next up:</em> Module 6 - Planning Your First Data Science Lesson (60-90 minutes)
         </p>
         
         <p>

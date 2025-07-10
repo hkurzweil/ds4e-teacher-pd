@@ -11,9 +11,6 @@
       <department>Data Science 4 Everyone</department>
       <institution>Data Science Learning Progressions PD</institution>
     </author>
-    <date>
-      <today />
-    </date>
 
     <website>
       <url href="https://pretextbook.org">My Website</url>

@@ -10,21 +10,11 @@
         
         <p>
             Assessment and Growth in data science education isn't about testing students on technical procedures or memorized definitions. It's about recognizing when students are thinking like data scientists—asking good questions, reasoning with evidence, and communicating their findings clearly. It's also about planning your own continued development in this exciting field.
-        </p>
-        
-        <video youtube="L9mK4nT7-5s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>Watch this 7-minute video showing what data science learning looks like across different grade levels and how teachers recognize and support this learning.</em>
-        </p>
-        
+        </p>    
         <p>
             By the end of this module, you'll understand what data science learning looks like in practice, have concrete strategies for assessing student growth in data science thinking, a rubric customized for your teaching context, and a clear plan for your own continued learning and growth as a data science educator.
         </p>
-        
-        <p>
-            <em>Estimated time:</em> 60-90 minutes
-        </p>
+
     </introduction>
 
     <section xml:id="sec-recognizing-data-science-learning">
@@ -132,11 +122,6 @@
                     Consider what the student is doing beyond just reading the graph.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    They're avoiding simple causation, considering confounding variables, and questioning what the data might not show.
-                </p>
-            </answer>
             <solution>
                 <p>
                     This student is demonstrating sophisticated data thinking: they're reading the graph accurately, but then going deeper to consider alternative explanations and potential confounding variables. They're not jumping to conclusions about gender causing score differences, which shows critical thinking about correlation vs. causation and awareness that data might not tell the complete story.
@@ -216,11 +201,6 @@
             </p>
         </exploration>
         
-        <video youtube="R8nK5mP9-7s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>This 5-minute video shows examples of students at different developmental levels working with the same dataset.</em>
-        </p>
         
         <exercise xml:id="growth-recognition">
             <statement>
@@ -233,11 +213,6 @@
                     Think about the fundamental shift in how students approach information and evidence.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    They automatically ask questions about data rather than passively accepting it.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The most significant growth indicator is when students develop a questioning disposition toward data—when they automatically wonder about sources, limitations, and alternative explanations. This represents a fundamental shift from passive consumption to active, critical engagement with information. Once students develop this habit of inquiry, other data science skills follow naturally.
@@ -328,11 +303,6 @@
                     Think about what's most important for developing data science thinking versus technical accuracy.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    The reasoning process and quality of thinking, not just the final answer or technical accuracy.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Focus on how students think through problems rather than whether they get the <q>right</q> answer. Good data science thinking includes questioning assumptions, considering alternatives, acknowledging uncertainty, and connecting findings to context. A student who asks thoughtful questions about flawed data shows better data science thinking than one who perfectly executes procedures without questioning.
@@ -419,11 +389,6 @@
                     Think about how data science is actually used in the real world.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    It involves real data, genuine questions, and requires students to make decisions under uncertainty.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Authentic data science assessment mirrors real-world data work: students work with messy, real data to answer questions that matter to them or their community. They must make decisions about data quality, choose appropriate methods, acknowledge limitations, and communicate findings to real audiences. This contrasts with artificial problems with predetermined <q>correct</q> answers.
@@ -431,11 +396,6 @@
             </solution>
         </exercise>
         
-        <video youtube="M7nK4pR8-2s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>This 6-minute video shows teachers using various assessment strategies to understand student data science thinking.</em>
-        </p>
     </section>
 
     <section xml:id="sec-designing-rubrics">
@@ -619,11 +579,6 @@
                     Think about what makes a rubric useful for both teachers and students.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    It focuses on thinking processes that students can understand and work toward improving.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Effective rubrics describe thinking behaviors that students can recognize and develop, rather than abstract qualities. Students should be able to read the rubric and understand what they need to do to improve. The rubric should also be practical enough that teachers can use it consistently without spending excessive time on assessment.
@@ -665,11 +620,6 @@
             </conclusion>
         </exercise>
         
-        <video youtube="N8mK5pT9-4s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>Watch this 4-minute video of teachers sharing their rubric design process and how they've refined their assessment approaches.</em>
-        </p>
     </section>
 
     <section xml:id="sec-planning-continued-growth">
@@ -758,11 +708,6 @@
                     Think about how to stay motivated and continue learning in a rapidly changing field.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Embrace being a learner alongside your students and view challenges as opportunities to grow.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The most powerful mindset is embracing your role as a co-learner. Data science education is still evolving, and the best educators are those who learn with their students, experiment with new approaches, and aren't afraid to say <q>I don't know, let's figure it out together.</q> This creates authentic learning environments and keeps you growing professionally.
@@ -853,11 +798,6 @@
                     Think about building resilience and maintaining long-term motivation.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Focus on small wins, connect with supportive colleagues, and remember that growth takes time.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Sustainability comes from celebrating small successes, building supportive relationships with other educators, and maintaining realistic expectations about change. When lessons don't go as planned or technology fails, treat these as learning opportunities rather than failures. Connect regularly with other data science educators who can provide encouragement and practical advice.
@@ -982,11 +922,6 @@
             </p>
         </exploration>
         
-        <video youtube="L9nK7mT4-6s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>Watch this 5-minute video featuring teachers who completed this series sharing their experiences and growth over the following year.</em>
-        </p>
         
         <exercise xml:id="commitment-to-action">
             <statement>
@@ -999,11 +934,6 @@
                     Think about what will help you maintain momentum and continue growing.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Commit to starting small, being consistent, and learning from both successes and challenges.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The most powerful commitment is to begin with manageable steps and persist through the inevitable challenges. Data science education develops through practice, reflection, and adaptation. Commit to trying new approaches, learning from what works and what doesn't, and maintaining curiosity about how to better serve your students through data science education.
@@ -1024,7 +954,13 @@
         </p>
         
         <p>
-            You now have everything you need to begin this important work. The data science learning progressions [PLACEHOLDER: Link to learning progressions website] will continue to guide your planning, the lesson plan template [PLACEHOLDER: Link to lesson plan template] will support your curriculum development, and the community of educators you're joining will provide ongoing support and inspiration.
+            You now have everything you need to begin this important work. The data science learning progressions 
+        </p>
+        <p>
+            [PLACEHOLDER: Link to learning progressions website] will continue to guide your planning, the lesson plan template [PLACEHOLDER: Link to lesson plan template] 
+        </p>
+        <p>
+        will support your curriculum development, and the community of educators you're joining will provide ongoing support and inspiration.
         </p>
         
         <p>
@@ -1035,10 +971,10 @@
             The world needs educators like you who are willing to embrace new challenges and help students develop essential skills for understanding our data-rich world. Thank you for taking this journey, and welcome to the community of data science educators!
         </p>
         
-        <video youtube="R9mK5nT8-7s" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="x3CvW9wIpK0" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 3-minute celebration video featuring students and teachers sharing the impact of data science education in their classrooms.</em>
+            <em>Watch this quick video of student testimonials about why data science education is important.</em>
         </p>
         
         <exercise xml:id="final-reflection">
@@ -1046,10 +982,6 @@
                 As you conclude this professional development experience, reflect: What are you most excited to try with your students? What questions do you still have? How will you stay connected with the data science education community? What impact do you hope to have on your students through data science education?
             </p>
         </exercise>
-        
-        <p>
-            <em>Total estimated time for this series:</em> 10-12 hours (perfect for 3-4 months at 2-4 hours per month)
-        </p>
         
         <p>
             <em>Continue your journey:</em> Visit [PLACEHOLDER: Link to learning progressions website] to explore the complete learning progressions and [PLACEHOLDER: Link to lesson plan template] to access the lesson planning template.

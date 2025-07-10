@@ -12,19 +12,16 @@
             Interpreting Problems and Results isn't about complex statistical tests or advanced mathematics. It's about developing the intellectual honesty and critical thinking skills to say, <q>Based on this data, here's what we can reasonably conclude, here's what we're not sure about, and here's what we still need to investigate.</q>
         </p>
         
-        <video youtube="J4hY7fK8-2Q" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="7VKgPZsJkX4" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 6-minute video showing how students learn to make evidence-based claims while acknowledging limitations.</em>
+            <em>Watch this video showing how students learn to make evidence-based claims.</em>
         </p>
         
         <p>
             By the end of this module, you'll have practical strategies to help your students make reasonable claims based on evidence, express appropriate uncertainty, avoid common interpretation mistakes, and understand when their conclusions can be applied beyond their original data.
         </p>
         
-        <p>
-            <em>Estimated time:</em> 45-60 minutes
-        </p>
     </introduction>
 
     <section xml:id="sec-drawing-conclusions-making-claims">
@@ -45,11 +42,6 @@
                     Think about the difference between describing a pattern and explaining why it exists.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    It assumes causation from correlation and goes beyond what the data can support.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The data shows a relationship but doesn't prove causation. Students who study with music might study longer for other reasons (they enjoy studying more, they have different study habits, they're more motivated), or students who plan to study longer might choose to use music. A better conclusion would be: <q>In our class, students who study with music report longer study times, but we need more information to understand why.</q>
@@ -104,11 +96,6 @@
                     Think about the difference between certainty and probability in data interpretation.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Because data analysis involves uncertainty, and honest communication requires acknowledging this.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Probabilistic language reflects the reality that data analysis involves uncertainty. Even strong patterns in data might not hold in other contexts, with different people, or under different conditions. Using tentative language keeps students intellectually honest and helps them avoid overconfident claims that can't be supported by their evidence.
@@ -154,10 +141,10 @@
             </conclusion>
         </exercise>
         
-        <video youtube="M9Bt2lW4J6k" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="3HOqhVHndMQ" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 4-minute video shows middle school students learning to distinguish between correlation and causation using classroom examples.</em>
+            <em>Fun examples to help students distinguish between correlation and causation.</em>
         </p>
         
         <exercise xml:id="verifiable-questions">
@@ -171,11 +158,6 @@
                     Think about the difference between questions that can be investigated and those that are purely matters of opinion.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Help them distinguish between investigable questions and opinion questions, and practice transforming broad questions into specific, measurable ones.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students can practice by sorting questions into <q>Can be investigated with data</q> vs. <q>Matter of opinion/values.</q> Then practice transforming vague questions (<q>Are teenagers lazy?</q>) into investigable ones (<q>How do teenage sleep patterns compare to recommended amounts?</q>). This helps them formulate questions that can lead to meaningful conclusions.
@@ -194,7 +176,7 @@
         <video youtube="P8K4fJ7R9mA" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 5-minute video explains how to help students think about uncertainty and limitations in age-appropriate ways.</em>
+            <em>Professor Kat Werner discusses the limitations and challenges that can arise when collecting data using complex social issues as examples.</em>
         </p>
         
         <exploration xml:id="exploration-limitations-investigation">
@@ -244,11 +226,6 @@
                     Think about how representative their sample is of the broader population they want to understand.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Their sample represents students in their school at their lunch time, not all teenagers everywhere.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students should understand that their findings apply most directly to students similar to those they surveyed—same school, same area, same time period. To make claims about teenagers in general, they would need data from different schools, regions, and backgrounds. This teaches them to be precise about what their data can and cannot tell them.
@@ -267,11 +244,6 @@
                     Consider how much confidence we can have in patterns found in small samples.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Small samples can show interesting patterns, but those patterns might not hold with larger or different groups.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students should understand that small samples can reveal interesting patterns worth investigating further, but conclusions should be tentative. A pattern found in 25 students might or might not appear in 250 students or in a different classroom. This teaches appropriate humility about what conclusions can be drawn from limited data.
@@ -314,11 +286,6 @@
                     Think about other differences between classrooms that might affect test scores.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Other factors that might be different about classrooms with more windows: location in building, noise levels, temperature, class size, teacher experience, or student demographics.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students should brainstorm alternative explanations: Maybe windowed classrooms are newer and have better facilities overall, or are located in quieter parts of the building, or house smaller classes, or have more experienced teachers assigned to them. Teaching students to generate alternative explanations develops critical thinking and prevents overconfident conclusions.
@@ -345,11 +312,6 @@
                     Think about how the composition of the groups might affect overall averages.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    This could happen if there are more boys in higher grades (where all students score higher) and more girls in lower grades.
-                </p>
-            </answer>
             <solution>
                 <p>
                     This is an example of Simpson's Paradox—when overall trends reverse when you look at subgroups. It might occur if older students (who generally score higher) include more boys, while younger students include more girls. This teaches students that aggregate data can be misleading and that breaking data into subgroups can reveal important patterns.
@@ -412,11 +374,6 @@
                     Think about the importance of considering all available evidence, not just evidence that supports your preferred conclusion.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Cherry-picking data by selecting only evidence that supports your conclusion while ignoring contradictory evidence.
-                </p>
-            </answer>
             <solution>
                 <p>
                     This is cherry-picking—selecting only data that supports your preferred conclusion. Good data interpretation requires considering all available evidence and explaining why some studies might show different results. Students should learn to look for patterns across multiple sources of evidence rather than searching for single sources that confirm their beliefs.
@@ -435,11 +392,6 @@
                     Think about whether their sample represents all teenagers everywhere.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    They're generalizing from one suburban school to all teenagers, which may not be representative.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The sample comes from one geographic area and socioeconomic context. Teenagers in rural areas, different countries, or lower-income communities might have very different internet access rates. Students should learn to be specific about what populations their data represents and avoid broad generalizations that go beyond their evidence.
@@ -447,10 +399,10 @@
             </solution>
         </exercise>
         
-        <video youtube="N4r7dK8s9gQ" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="Sn1J6qAsUak" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 5-minute video shows teachers helping students recognize and avoid common data interpretation mistakes.</em>
+            <em>This video highlights some common data interpretation mistakes.</em>
         </p>
         
         <exploration xml:id="exploration-pitfall-prevention1">
@@ -535,11 +487,6 @@
                     Think about the balance between being confident in evidence and being appropriately humble about limitations.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Intellectual humility—being confident in what the evidence supports while acknowledging what we don't know.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students should develop the ability to make strong claims when evidence supports them while remaining humble about limitations and uncertainty. This intellectual honesty is crucial for scientific thinking and helps students avoid both overconfident conclusions and paralyzing skepticism about everything.
@@ -581,10 +528,10 @@
             </conclusion>
         </exercise>
         
-        <video youtube="W3hF8kJ2M7s" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="dItUGF8GdTw" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 4-minute video of teachers sharing their experiences helping students develop evidence-based reasoning skills.</em>
+            <em>This fun TED Talk gives five quick tips to improve critical thinking, the most important skill when working with data.</em>
         </p>
         
         <exercise xml:id="reflection-interpretation">
@@ -600,26 +547,19 @@
         <p>
             Excellent work! You now have strategies to help students move from data analysis (Module 3) to drawing valid, appropriately confident conclusions (Module 4). These interpretation skills are essential for scientific thinking and informed citizenship.
         </p>
+
+        <p>
+            Remember: Interpretation skills develop through practice with feedback. Create many opportunities for students to make claims, defend them with evidence, and refine their reasoning based on discussion and reflection.
+        </p>
+
+        <p>
+            <em>Quick wins to try this week:</em> Choose one interpretation activity from your action plan and practice the evidence-based claim structure with your students!
+        </p>
         
         <p>
             In our final foundation module, <em>Visualization and Communication</em>, we'll explore how to help students share their data stories effectively with different audiences through clear visualizations and compelling narratives.
         </p>
-        
-        <p>
-            Remember: Interpretation skills develop through practice with feedback. Create many opportunities for students to make claims, defend them with evidence, and refine their reasoning based on discussion and reflection.
-        </p>
-        
-        <p>
-            <em>Estimated time for this module:</em> 45-60 minutes
-        </p>
-        
-        <p>
-            <em>Next up:</em> Module 5 - Visualization and Communication (45-60 minutes)
-        </p>
-        
-        <p>
-            <em>Quick wins to try this week:</em> Choose one interpretation activity from your action plan and practice the evidence-based claim structure with your students!
-        </p>
+
     </section>
 
 </chapter>

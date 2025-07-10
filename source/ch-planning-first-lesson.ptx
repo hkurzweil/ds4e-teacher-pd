@@ -12,19 +12,10 @@
             This module is entirely hands-on. You'll work through the process of planning a data science lesson step-by-step, considering how to integrate data science naturally with your existing curriculum while avoiding common pitfalls that trip up new data science educators.
         </p>
         
-        <video youtube="R8jK4nT9-2s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>Watch this 7-minute video showing teachers from different grade levels and subjects planning their first data science lessons.</em>
-        </p>
-        
         <p>
             By the end of this module, you'll have a complete, tested lesson plan ready to implement in your classroom, along with strategies for adapting and extending the lesson based on how it goes with your students.
         </p>
-        
-        <p>
-            <em>Estimated time:</em> 60-90 minutes
-        </p>
+
     </introduction>
 
     <section xml:id="sec-lesson-design-framework">
@@ -73,11 +64,6 @@
                     Think about what provides the foundation that makes the other components meaningful and engaging.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    The engaging question—what do students wonder about animal habitats that they could investigate with data?
-                </p>
-            </answer>
             <solution>
                 <p>
                     Starting with the engaging question ensures that the lesson addresses something students are genuinely curious about, which makes all the other components more meaningful. A good question might be <q>Do animals in colder climates tend to be larger?</q> or <q>Which habitat types support the most different kinds of animals?</q> From there, the teacher can design investigations that address both science content and data science skills.
@@ -147,11 +133,6 @@
                     Think about what happens when students get deeply engaged in data investigations.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Data investigations often take longer than expected because students get engaged and want to explore further.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Plan for flexibility! Data science lessons often spark student curiosity that leads to extended investigation. Build in extra time, have optional extension activities ready, and be prepared to continue investigations in subsequent lessons if students are deeply engaged. It's better to have a rich, incomplete investigation than a rushed, superficial one.
@@ -206,6 +187,18 @@
                 • <em>ELA:</em> Reading different genres → Analyze word patterns in different types of books
             </p>
         </exploration>
+
+        <video youtube="wnx0Elu-tA4" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this webinar if you are interested in hearing about how educators have implemented data science in their algebra classrooms!</em>
+        </p>
+
+         <video youtube="pIWPOg5ZzhQ" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this webinar if you are interested in hearing about what data literacy looks like in the K-5 space!</em>
+        </p>
         
         <exercise xml:id="curriculum-connection-practice">
             <p>
@@ -252,12 +245,6 @@
                 • Weak: <q>What makes a good story?</q> → Strong: <q>What types of words appear most frequently in mystery books compared to adventure books?</q>
             </p>
         </exploration>
-        
-        <video youtube="M4kR7nT8-6s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>This 6-minute video shows teachers working through the process of refining their investigation questions.</em>
-        </p>
         
         <exercise xml:id="question-crafting">
             <p>
@@ -394,11 +381,6 @@
                     Consider your planned timeline, technology requirements, and curriculum connections.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    [This will vary by individual, but common answers include trying to cover too much or overcomplicating technology]
-                </p>
-            </answer>
             <solution>
                 <p>
                     The most common pitfall for first-time data science educators is trying to cover too much in one lesson. If you're planning to touch on more than 2 strands or multiple complex concepts, consider simplifying. Remember: one meaningful data experience is worth more than five rushed activities.
@@ -614,12 +596,6 @@
             </p>
         </exploration>
         
-        <video youtube="L3nK8wR4-9s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>This 5-minute video shows teachers doing final preparations and dry runs of their first data science lessons.</em>
-        </p>
-        
         <exercise xml:id="final-preparation">
             <p>
                 What are the three most important things you need to do to prepare for teaching your lesson? List them in order of priority and set deadlines for completing each one.
@@ -694,11 +670,6 @@
                     Think about what matters most for student learning and your professional growth.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    The goal is learning and growth for both you and your students, not perfection.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Remember that you're learning alongside your students, and that's perfectly appropriate. Students benefit from seeing adults model curiosity, problem-solving, and learning from mistakes. Focus on facilitating good thinking rather than having all the answers, and view any challenges as learning opportunities for future lessons.
@@ -779,6 +750,10 @@
         <p>
             Congratulations on completing your first data science lesson plan! Whether you've already taught it or are preparing to do so, you've taken a significant step toward becoming a confident data science educator.
         </p>
+
+        <p>
+            <em>Implementation goal:</em> Teach your planned lesson within the next two weeks and complete the post-lesson reflection framework!
+        </p>
         
         <p>
             In our next module, <em>Building Your Data Science Toolkit</em>, we'll help you expand your resources and capabilities by exploring different tools, finding quality datasets, and building a sustainable collection of materials and strategies for ongoing data science education.
@@ -788,17 +763,7 @@
             Remember: Every expert was once a beginner. Your first lesson is the foundation for many more engaging data science experiences with your students. Each lesson you teach will build your confidence and reveal new possibilities for integrating data science with your curriculum.
         </p>
         
-        <p>
-            <em>Estimated time for this module:</em> 60-90 minutes
-        </p>
-        
-        <p>
-            <em>Next up:</em> Module 7 - Building Your Data Science Toolkit (60-90 minutes)
-        </p>
-        
-        <p>
-            <em>Implementation goal:</em> Teach your planned lesson within the next two weeks and complete the post-lesson reflection framework!
-        </p>
+
     </section>
 
 </chapter>

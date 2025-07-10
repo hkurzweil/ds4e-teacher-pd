@@ -12,18 +12,14 @@
             Analysis and Modeling isn't about complex mathematics or advanced statistics. It's about developing the thinking skills to look at data and ask, <q>What story is this telling me? What patterns do I notice? What questions does this raise?</q> Whether students are working with simple tally marks or sophisticated datasets, the fundamental thinking is the same.
         </p>
         
-        <video youtube="K8fG4mT9-2w" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="lgCNTuLBMK4" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 5-minute video showing students analyzing data across different grade levels and subjects.</em>
+            <em>This video gives a concise overview of the data investigation process so far from defining the question to collecting the data to cleaning the data to finally analyzing the data and sharing those results.</em>
         </p>
         
         <p>
             By the end of this module, you'll have practical strategies to help your students summarize data effectively, identify patterns and relationships, understand variability, use digital tools appropriately, and create simple models to represent what they've learned.
-        </p>
-        
-        <p>
-            <em>Estimated time:</em> 45-60 minutes
         </p>
     </introduction>
 
@@ -45,11 +41,6 @@
                     Think about encouraging students to observe before making conclusions.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    <q>What do you notice about this data?</q>
-                </p>
-            </answer>
             <solution>
                 <p>
                     Starting with <q>What do you notice?</q> encourages students to observe patterns before jumping to conclusions. They might notice which food is most popular, whether there are ties, if any foods got zero votes, or other patterns. This observation skill is fundamental to data analysis at any level.
@@ -104,11 +95,6 @@
                     Consider when these measures might tell different stories about the same data.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    When there are outliers or the data is not evenly distributed.
-                </p>
-            </answer>
             <solution>
                 <p>
                     When data has outliers (like one student reporting 8 hours of homework while others report 1-2 hours), the mean gets pulled toward the outlier while the median stays more representative of the typical experience. Understanding this helps students choose appropriate summaries and interpret data more accurately.
@@ -155,10 +141,10 @@
             </p>
         </exploration>
         
-        <video youtube="mK4FfT2Y9pI" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="ciBdWGpEsko" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 4-minute video shows elementary students learning to describe data patterns in their own words.</em>
+            <em>This video shows a teacher demonstrating how you'd like to model describing data patterns.</em>
         </p>
         
         <exercise xml:id="frequency-tables">
@@ -172,11 +158,6 @@
                     Think about how organizing data by categories makes patterns more visible.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    It makes it easy to compare categories and calculate proportions or percentages.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Frequency tables organize responses by category (bus, car, walk, bike) and show counts or percentages, making it easy to see which transportation methods are most common, compare between options, and calculate what fraction of students use each method. This organized format also makes it easier to create visualizations and ask follow-up questions.
@@ -192,10 +173,10 @@
             One of the most important concepts in data analysis is variability—the fact that data points are different from each other. Understanding and describing this variability helps students interpret data more accurately and avoid oversimplified conclusions.
         </p>
         
-        <video youtube="P4wT1jZ8Dg8" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="ipYaHqutMds" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>This 6-minute video explains variability in kid-friendly terms using classroom examples.</em>
+            <em>This video explains variability in kid-friendly terms using a classroom versus playground example.</em>
         </p>
         
         <exercise xml:id="describing-variability">
@@ -209,11 +190,6 @@
                     Consider whether variability is a problem to be solved or a natural characteristic of data.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Variability is normal and expected—people naturally differ in their abilities and approaches.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students should understand that variability isn't an error or problem—it's information. Different puzzle completion times reflect real differences in experience, strategy, motivation, and ability. Understanding this helps students interpret data thoughtfully rather than looking for single <q>right</q> answers.
@@ -272,11 +248,6 @@
                     Consider both the central tendency and the spread of scores.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Class A performed more consistently with higher typical scores, while Class B had more variability in performance.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Class A shows less variability (smaller range) and slightly higher typical performance. Class B shows more variability, with both higher highs and lower lows. This might suggest different teaching approaches, class preparation levels, or other factors affecting consistency of learning.
@@ -367,6 +338,18 @@
                 • Focus on efficiency, accuracy, and handling larger datasets
             </p>
         </exploration>
+
+        <video youtube="6kOucXpVgPA" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this webinar if you are interested in hearing about some fun non-coding approaches to data analysis and visualization to use in your classroom!</em>
+        </p>
+
+        <video youtube="FCsdx0xW1Pw" width="70%" margins="15% 15%" aspect="16:9" />
+        
+        <p>
+            <em>Watch this webinar if you are interested in hearing about some fun lotw-coding to coding approaches to data analysis and visualization to use in your classroom!</em>
+        </p>
         
         <exercise xml:id="tool-selection">
             <statement>
@@ -379,11 +362,6 @@
                     Consider both practical factors (size of data) and learning factors (what skills you want to develop).
                 </p>
             </hint>
-            <answer>
-                <p>
-                    When datasets are large enough that hand calculation becomes impractical, or when you want to teach specific digital skills.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Digital tools become valuable when: (1) datasets have more than about 20-30 data points, (2) you need to perform repetitive calculations, (3) you want students to focus on interpretation rather than calculation, or (4) you're explicitly teaching digital literacy skills. For smaller datasets, hand calculation often provides better understanding of the underlying concepts.
@@ -438,11 +416,6 @@
                     Think about what this model can and cannot tell us about cause and effect.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    This shows a relationship but doesn't prove that eating breakfast causes higher test scores.
-                </p>
-            </answer>
             <solution>
                 <p>
                     While the model describes a pattern in the data, it doesn't establish causation. Other factors might explain both breakfast eating and test performance (family income, sleep habits, general health consciousness). Students should understand that models describe relationships but additional evidence is needed to establish cause and effect.
@@ -450,11 +423,6 @@
             </solution>
         </exercise>
         
-        <video youtube="R7mZKx3pD1s" width="70%" margins="15% 15%" aspect="16:9" />
-        
-        <p>
-            <em>This 5-minute video shows middle school students using spreadsheets to analyze their survey data and create simple models.</em>
-        </p>
         
         <exercise xml:id="tool-ethics">
             <statement>
@@ -467,11 +435,6 @@
                     Consider privacy, accuracy, and the impact of automated analysis.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Protecting privacy, understanding tool limitations, and being transparent about methods used.
-                </p>
-            </answer>
             <solution>
                 <p>
                     Students should: (1) Protect personal information when using cloud-based tools, (2) Understand that tools can make errors or have biases, (3) Be transparent about which tools they used and how, (4) Not blindly trust automated results without understanding how they were generated, and (5) Consider whether their tool use might exclude others who don't have access to the same technology.
@@ -522,11 +485,6 @@
                     Think about building students' thinking skills versus teaching specific techniques.
                 </p>
             </hint>
-            <answer>
-                <p>
-                    Focus on developing analytical thinking habits that students can apply across different contexts.
-                </p>
-            </answer>
             <solution>
                 <p>
                     The goal is building students' ability to think analytically about any data they encounter, not just mastering specific tools or techniques. Choose approaches that help students develop habits of systematic observation, pattern recognition, and critical questioning that they can use throughout their lives, regardless of the technology or subject matter.
@@ -568,10 +526,10 @@
             </conclusion>
         </exercise>
         
-        <video youtube="T5nW2aJ4xKs" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="btnuoD3Rato" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Watch this 4-minute video of teachers sharing their favorite strategies for building students' data analysis skills.</em>
+            <em>This video gives some examples for easy data analysis ideas to implement in your classroom.</em>
         </p>
         
         <exercise xml:id="reflection-analysis">
@@ -587,7 +545,11 @@
         <p>
             Great progress! You now have strategies to help students move from organized data (Module 2) to meaningful analysis and simple models (Module 3). These analytical thinking skills are the bridge between collecting information and drawing conclusions.
         </p>
-        
+                
+        <p>
+            <em>Quick wins to try this week:</em> Choose one analysis activity from your action plan and try the <q>Notice, Compare, Quantify, Extend</q> routine with your students!
+        </p>
+
         <p>
             In our next module, <em>Interpreting Problems and Results</em>, we'll explore how to help students draw valid conclusions from their analysis, make evidence-based claims, and understand the limitations of what their data can tell them.
         </p>
@@ -595,18 +557,7 @@
         <p>
             Remember: Data analysis skills develop through practice with increasingly complex datasets. Start with simple patterns and build toward more sophisticated analysis as students gain confidence and skill.
         </p>
-        
-        <p>
-            <em>Estimated time for this module:</em> 45-60 minutes
-        </p>
-        
-        <p>
-            <em>Next up:</em> Module 4 - Interpreting Problems and Results (45-60 minutes)
-        </p>
-        
-        <p>
-            <em>Quick wins to try this week:</em> Choose one analysis activity from your action plan and try the <q>Notice, Compare, Quantify, Extend</q> routine with your students!
-        </p>
+
     </section>
 
 </chapter>
