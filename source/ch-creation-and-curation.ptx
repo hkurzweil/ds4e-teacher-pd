@@ -286,15 +286,26 @@
         <title>Organizing and Cleaning Data: From Messy to Meaningful</title>
         
         <p>
-            Real-world data collection is messy. Students might record information inconsistently, miss data points, or make recording errors. Teaching students to organize and clean data helps them understand that data analysis requires careful preparation.
+            Real-world data collection is messy. Students might record information inconsistently, miss data points, or make recording errors. Teaching students to organize and clean data helps them understand that data analysis requires careful preparation. This series of videos below are from Delavari, Shelton, Ireland, and Weiland (2025) through Statistical Literacy and Critical Education (SLiCE) and covers the key components of data moves.
         </p>
-        
-        <video youtube="kMhbXOTyZ9s" width="70%" margins="15% 15%" aspect="16:9" />
+        <video youtube="6q6RYzOpmNk" width="70%" margins="15% 15%" aspect="16:9" />
+        <p>
+            <em>Data Moves: Filtering with associated activity <url href="https://codap.concord.org/releases/latest/static/dg/en/cert/index.html?url=https://concord-consortium.github.io/codap-data/SampleDocs/Science/Biology/27mammals/Mammals_Sample.codap#">here.</url></em>
+        </p>
+        <video youtube="SEDpohsjbTw" width="70%" margins="15% 15%" aspect="16:9" />
+        <p>
+            <em>Data Moves: Grouping with associated activity <url href="https://codap.concord.org/releases/latest/static/dg/en/cert/index.html?url=https://concord-consortium.github.io/codap-data/SampleDocs/Education/School_Children/School_Children.json#">here.</url></em>
+        </p>
+        <video youtube="9IBYF-RILpg" width="70%" margins="15% 15%" aspect="16:9" />
         
         <p>
-            <em>Placeholder for Travis Weiland's video on cleaning data.</em>
+            <em>Data Moves: Calculating and Recoding</em>
         </p>
-        
+        <video youtube="ShfFSG5zf1I" width="70%" margins="15% 15%" aspect="16:9" />
+        <p>
+            <em>Data Moves: Summarizing with associated activity <url href="https://codap.concord.org/app/static/dg/en/cert/index.html#shared=https%3A%2F%2Fcfm-shared.concord.org%2FXFAFf7va8Vw5t6aXuzH9%2Ffile.json">here.</url></em>
+        </p>
+
         <exercise xml:id="identifying-data-problems">
             <statement>
                 <p>
